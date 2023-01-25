@@ -1,0 +1,11 @@
+_draft/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock
+.DS_Store
+build-site.sh
+serve-site.sh
