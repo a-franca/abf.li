@@ -1,0 +1,28 @@
+/* =============================================================================
+Lunr Search
+========================================================================== */
+
+/* #lunrsearchresults {padding-top: 0.2rem;} */
+.lunrsearchresult {
+    padding-bottom: 1rem;
+}
+
+.lunrsearchresult .title {
+    font-weight: bold;
+    line-height: 2;
+}
+
+/* .lunrsearchresult .url {color: silver;} */
+.lunrsearchresult a {
+    display: block;
+}
+
+/* .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;} */
+/* .lunrsearchresult a:hover .title {text-decoration: underline;} */
+
+input#lunrsearch {
+    font-size: 100%;
+    padding: 1rem;
+    width: 95%;
+    margin-bottom: 2em;
+}
