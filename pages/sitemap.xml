@@ -1,0 +1,26 @@
+---
+layout:
+permalink: "/sitemap.xml"
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	{% for page in site.pages %}
+	{% if page.url contains '.xml' or page.url contains '/assets/' or page.url contains '.json' or page.url contains '404.html' or page.url contains '.txt' %}{% else %}
+	<url>
+		<loc>{{ page.url | prepend: site.url }}</loc>
+		{% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	{% endif %}
+	{% endfor %}
+	{% for post in site.posts %}
+	<url>
+		<loc>{{ post.url | prepend: site.url }}</loc>
+		{% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	{% endfor %}
+</urlset>
