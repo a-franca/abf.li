@@ -2,7 +2,7 @@
     <h1 class="site-title">{{ site.title }}</h1>
     <nav> 
         {% for item in site.data.navigation %}
-        <a {% if item.class == 'hide-menu' %}class="hide-menu"{% elsif page.url == item.url %}id="current"{% endif %} href="{{ item.url }}" >{{ item.name }}</a>
+        <a {% if page.url == item.url and item.class == 'hide-menu'%}id="current" class="hide-menu"{% elsif page.url == item.url %}id="current"{% elsif item.class == "hide-menu" %}class="hide-menu"{% endif %} href="{{ item.url }}">{{ item.name }}</a>
         {%- endfor %}
     </nav>
 </header>
