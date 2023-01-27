@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<main>
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% assign num-words = page.content | number_of_words %}
+  <p class="post-meta">
+  Published: {{ page.date | date: "%B %-d, %Y" }}<br>
+  {{ page.content | number_of_words }} words {% if num-words <= 183 %} &middot; 1 minute to read {% else %} &middot; {% include reading-time.html %}{% endif %}<br>
+  Tagged: {% for tag in page.tags %}<a href="/tags/{{ tag | slugify: 'pretty' }}">#{{ tag | slugify: 'pretty' }}</a>{% unless forloop.last == true %},&nbsp;{% endunless %}{% if forloop.last == true %}.{% endif %}{% endfor %}
+  </p>
+
+  <article>
+    {{ content }}
+  </article>
+
+  <!-- After Article -->
+  <div class="after-article">
+    <p class="notice"><strong>Questions, comments or concerns?</strong><br>I'd love to hear your thoughts! Please share them through <a href="mailto:{{ site.author.email }}?subject=Re: {{ page.title }}">email</a> or <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">Mastodon</a>.</p>
+    <p class="donate"><strong>Did you find this article helpful?</strong><br>If you're feeling generous, consider <a href="/donate/">donating</a> to show your support.</p>
+  </div>
+    <!-- end -->
+
+  <!-- previous / next post -->
+  <div class="post-nav">
+    
+    {% if page.previous.url %}
+    <p>&lt;~ Previous: <a href="{{page.previous.url}}">{{page.previous.title}}</a></p>
+    {% endif %}
+    
+    {% if page.next.url %}
+    <p>~&gt; Next: <a href="{{page.next.url}}">{{page.next.title}}</a></p>
+    {% endif %}
+    
+  </div>
+  <!-- end -->
+  {% include openring-out.html %}
+</main>
