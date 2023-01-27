@@ -1,0 +1,87 @@
+# Setup
+title: 'Andre Franca'
+url: 'https://abf.li'
+tagline: 'A technology enthusiast'
+description: 'The personal blog of Andre Franca'
+baseurl: ''
+locale: 'en-US'
+timezone: 'America/New_York'
+license: 'CC BY-NC-SA 4.0'
+robots: '/robots.txt'
+sitemap: '/sitemap.xml'
+feed:
+  rss: '/feed.xml'
+  json: '/feed.json'
+
+logo: '/assets/images/feature/brutal-logo.webp'
+logo_width: '512'
+logo_height: '512'
+logo_alt: 'Brutal Website Logo'
+
+feature_image: '/assets/images/feature/brutal-feature-image.webp'
+feature_width: '1369'
+feature_height: '720'
+feature_alt: 'Brutal Feature Image'
+
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-minifier
+  - jekyll/tagging
+
+# Author
+author:
+  name: 'Andre Franca'
+  picture: '/assets/images/avatar/4e0f32e99eb01906.png'
+  picture_width: '230'
+  picture_height: '230'
+  url: 'https://abf.li/'
+  email: 'hello@abf.li'    
+  git: 'https://git.abf.li/andre'
+  mastodon: 'https://mstdn.abf.li/@andre'
+
+donate:
+  kofi: 'https://ko-fi.com/afranca'
+  stripe: 'https://donate.stripe.com/fZeaIybtfeXcdnadQQ'
+
+# Tag settinngs
+tag_page_layout: tagged
+tag_page_dir: tags
+
+# Minifier Settings
+jekyll-minifier:
+  exclude:
+    - 'feed.xml'
+    - 'feed.json'
+    - 'sitemap.xml'
+    - 'robots.txt'
+  remove_spaces_inside_tags: true   # Default: true
+  remove_multi_spaces: true         # Default: true
+  remove_comments: true             # Default: true
+  remove_intertag_spaces: true      # Default: false
+  compress_css: true                # Default: true
+  compress_javascript: true         # Default: true
+  compress_json: true               # Default: true
+
+include:
+# For Cloudflare pages #
+  - _headers
+  - _redirects
+  
+# Includes / Excludes
+exclude:
+  - _draft/
+  - build-site.sh
+  - serve-site.sh
+  - .sass-cache/
+  - .jekyll-cache/
+  - .gitignore
+  - .bundle/
+  - .ruby-version
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - LICENSE
+  - README.md
