@@ -1,0 +1,68 @@
+/* =============================================================================
+Youtube iframe
+========================================================================== */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* =============================================================================
+    Youtube Consent Warning Box
+========================================================================== */
+
+.yt-warning {
+    margin: 3rem 0 2rem;
+    font-size: 90%;
+    border: var(--standard-border);
+    text-align: center;
+    padding: 0 4rem 1rem;
+}
+
+.yt-warning::before {
+    color: var(--accent-text-color);
+    display: block;
+    position: relative;
+    left: -4.14rem;
+    top: -1rem;
+    font-weight: bold;
+    border: var(--standard-border);
+    padding-top: 0.1rem;
+    width: 29.76rem;
+    content: "WARNING";
+    background: var(--warning-color);
+}
+
+.yt-warning br {
+    content: "";
+    margin: 0.5em;
+    display: block;
+}
+
+/* =============================================================================
+    Small screens settings
+========================================================================== */
+
+@media(max-width:600px) {
+    .yt-warning {
+        margin: 3.5rem 0 2rem;
+    }
+
+    .yt-warning::before {
+        top: -1.1rem;
+        padding: 0.2rem 0 0.1rem;
+        width: 14.5rem;
+    }
+}
