@@ -1,0 +1,9 @@
+/*
+  X-Robots-Tag: index; follow
+  Access-Control-Allow-Origin: cdn.abf.li; *.abf.li;
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Permissions-Policy: interest-cohort=();
+  Content-Security-Policy: default-src 'self' https://cdn.abf.li; style-src 'unsafe-inline'; script-src 'unsafe-inline'; frame-src www.youtube-nocookie.com youtube-nocookie.com;
+  Strict-Transport-Security: max-age=31536000;
