@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<main>
+    <h1 class="page-title">Tagged #{{ page.tag }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Post Title</th>
+                <th>Published</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for post in page.posts %}
+            <tr>
+            <td><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></td>
+            <td><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d/%Y" }}</time></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</main>
