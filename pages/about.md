@@ -14,8 +14,8 @@ I really see that personal spaces like this (simple, accessible and decentralize
 
 **Built with:** [Jekyll](https://jekyllrb.com){: rel="noopener noreferrer nofollow" target="_blank" }  
 **Hosted on:** [Cloudflare](https://pages.cloudflare.com/){: rel="noopener noreferrer nofollow" target="_blank" }  
-**Source Code:** [Gitea](https://git.abf.li/andre/website){: rel="noopener noreferrer nofollow" target="_blank" }  
-**Code License:** [MIT](https://git.abf.li/andre/website/raw/branch/main/LICENSE){: rel="noopener noreferrer nofollow" target="_blank" }  
+**Source Code:** [Gitea](https://git.abf.li/andre/website){: rel="me noopener" target="_blank" }  
+**Code License:** [MIT](https://git.abf.li/andre/website/raw/branch/main/LICENSE){: rel="me noopener" target="_blank" }  
 **Content License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){: rel="noopener noreferrer nofollow" target="_blank" }   
 **Developed on:** Macbook Mid 2018  
 
