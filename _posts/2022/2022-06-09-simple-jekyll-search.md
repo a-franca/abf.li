@@ -88,5 +88,5 @@ and the **search.json** file after rendered, like this:
 
 Finally, this is a screenshot of a fully working lightweight searching tool.
 
-![Website Screenshot](/assets/images/general/A6F3D3B5-BF82-46C5-B978-FBF241C1FA99.webp)
+![Website Screenshot](/assets/images/general/A6F3D3B5-BF82-46C5-B978-FBF241C1FA99.webp){: loading="lazy" }
 *Website Screenshot*

@@ -13,7 +13,7 @@ image:
 
 Why are there so many keyboard sizes and layouts? Is it possible to find the perfect keyboard? Will we type better or faster with a "high-end" keyboard? Here's my opinion:
 
-![Akko Black & Pink 3084B Plus Keyboard](/assets/images/general/EF18B218-AE83-4255-8281-2F7BBD20E65F.webp)
+![Akko Black & Pink 3084B Plus Keyboard](/assets/images/general/EF18B218-AE83-4255-8281-2F7BBD20E65F.webp){: loading="lazy" }
 *75% Keyboard Layout*
 
 Recently, my wife needed a new keyboard because, for the hundredth time, some keys on her macbook started to fail. No news here about how Apple making laptops with more than horrible keyboards. I remember back in 2010 when I bought my first apple laptop, and it lasted for 10 years, while my 2018 has always shown some defect, be it in the battery, or in the keys. It's a machine that I feel disgusted of using every day, but I'll keep doing so until it finally takes its last breath, since money doesn't grow on trees.
@@ -30,7 +30,7 @@ Above I commented that I didn't want to lead you to believe that a mechanical ke
 
 In fact, most people suffer from using a keyboard due to bad habits and, perhaps, because there is a historical legacy linked to how the **qwert** layout was developed to optimize the working mechanism of the typewriters.
 
-![Akko Black & Pink 3084B Plus Keyboard](/assets/images/general/6E55DD91-45EA-4D00-B869-BB5679934C12.webp)
+![Akko Black & Pink 3084B Plus Keyboard](/assets/images/general/6E55DD91-45EA-4D00-B869-BB5679934C12.webp){: loading="lazy" }
 *Keyboard Layout Comparison*
 
 Well, what are the most common keyboard layout types?
