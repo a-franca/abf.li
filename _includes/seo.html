@@ -1,0 +1,52 @@
+<title>
+    {% if page.tag %}
+    Tagged #{{ page.tag }} &middot; {{ site.title }}
+    {% elsif page.title == "Home" %}
+    {{ site.title }} &middot; {{ site.tagline }}
+    {% else%}
+    {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+<meta name="description" content="{% if page.tag %}Posts tagged {{ page.tag }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="author" content="{{ site.author.name }}">
+
+<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{% if page.tag %}Posts tagged {{ page.tag }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.image %}
+<meta property="og:image" content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ page.image | prepend: site.url }}{% endif %}">
+{% else %}
+<meta property="og:image" content="{{ site.feature_image | prepend: site.url }}">
+<meta property="og:image:height" content="{{ site.feature_height }}">
+<meta property="og:image:width" content="{{ site.feature_width }}">
+<meta property="og:image:alt" content="{{ site.feature_alt }}">
+{% endif %}
+{% if page.image.height %}<meta property="og:image:height" content="{{ page.image.height }}">{% endif %}
+{% if page.image.width %}<meta property="og:image:width" content="{{ page.image.width }}">{% endif %}
+{% if page.image.alt %}<meta property="og:image:alt" content="{{ page.image.alt }}">{% endif %}
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:url" content="{{ page.url | prepend: site.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:type" content="{% if page.url contains '/posts/' %}article{% else %}website{% endif %}">
+<meta property="article:published_time" content="{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}">
+<meta name="twitter:card" content="{{ page.twitter.card | default: site.twitter.card | default: "summary_large_image" }}">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{% if page.tag %}Posts tagged {{ page.tag }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.image %}
+<meta name="twitter:image" content="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ page.image | prepend: site.url }}{% endif %}">
+{% else %}
+<meta property="twitter:image" content="{{ site.feature_image | prepend: site.url }}">
+<meta property="twitter:image:height" content="{{ site.feature_height }}">
+<meta property="twitter:image:width" content="{{ site.feature_width }}">
+<meta property="twitter:image:alt" content="{{ site.feature_alt }}">
+{% endif %}
+{% if page.image.height %}<meta property="twitter:image:height" content="{{ page.image.height }}">{% endif %}
+{% if page.image.width %}<meta property="twitter:image:width" content="{{ page.image.width }}">{% endif %}
+{% if page.image.alt %}<meta property="twitter:image:alt" content="{{ page.image.alt }}">{% endif %}
+<meta name="twitter:url" content="{{ page.url | prepend: site.url }}">
+{% if site.twitter.username %}<meta name="twitter:site" content="@{{ site.twitter.username | remove:'@' }}"> {% endif %}
+{% if site.twitter.username %}<meta name="twitter:creator" content="@{{ site.twitter.username | remove:'@' }}"> {% endif %}
+
+<script type="application/ld+json">{ "@context": "https://schema.org", "@type": "{% if page.url contains '/posts/' %}Article{% else %}Website{% endif %}", "name":{% if page.tag %}{{ page.tag | prepend: 'Tagged #' | jsonify}}{% else %}{{ page.title | jsonify}}{% endif %}, "headline":{% if page.tag %}{{ page.tag | prepend: 'Tagged #' | jsonify}}{% else %}{{ page.title | jsonify}}{% endif %}, "description":{% if page.tag %}{{ page.tag | prepend: 'Posts tagged ' | jsonify}}{% elsif page.description %}{{ page.description | jsonify}}{% else %}{{ site.description | jsonify}}{% endif %}, {% if page.tags !=nil %}"keywords":{{ page.tags | join: ',' | jsonify}},{% endif %} "url": "{{ page.url | prepend: site.url}}", {% if page.date %}"datePublished":{{ page.date | date_to_xmlschema | jsonify}}{% else %}"datePublished":{{ site.time | date_to_xmlschema | jsonify}}{% endif %}, "image":{ "@type": "ImageObject", {% if page.image %} "url": "{% if page.image contains '://' %}{{ page.image}}{% else %}{{ page.image | prepend: site.url}}{% endif %}", {% else %} "url": "{{ site.feature_image | prepend: site.url}}", "width":{{ site.feature_width}}, "height":{{ site.feature_height}} {% endif %} {% if page.image.width %}"width":{{ site.feature_width}},{% endif %} {% if page.image.height %}"height":{{ site.feature_height}}{% endif %}}, "publisher":{ "@type": "Organization", "name":{{ site.title | jsonify}}, "url": "{{ '/' | prepend: site.url}}", "logo":{ "@type": "ImageObject", "url": "{{ site.logo | prepend: site.url}}", "width":{{ site.logo_width}}, "height":{{ site.logo_height}}}}, "author":{ "@type": "Person", "name":{{ site.author.name | jsonify}}, "url": "{{ '/' | prepend: site.url}}", "sameAs":[{{ site.author.mastodon | jsonify}}, {{ site.author.git | jsonify }}], "image":{ "@type": "ImageObject", "url": "{{ site.author.picture | prepend: site.url}}", "width":{{ site.author.picture_width}}, "height":{{ site.author.picture_height}}}}, "mainEntityOfPage":{ "@type": "WebPage", "@id": "{{ '/' | prepend: site.url}}"}}</script>
