@@ -4,7 +4,6 @@ title: "Copa do mundo no Qatar e a hipocrisia global"
 description: "Meus pensamentos sobre a nossa hipocrisia como sociedade em relação à Copa do Mundo."
 permalink: 
 tags:
-  - Sports
   - Soccer
   - World Cup
 date: 2022-11-22 10:00:00

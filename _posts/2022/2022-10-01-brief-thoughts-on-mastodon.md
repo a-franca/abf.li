@@ -6,7 +6,7 @@ permalink:
 tags:
   - Blogging
   - Digital
-  - Social
+  - Social Media
   - Mastodon
   - Fediverse
 date: 2022-10-01 10:00:00

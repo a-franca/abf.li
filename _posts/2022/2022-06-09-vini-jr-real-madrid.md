@@ -4,7 +4,6 @@ title: "Vinicius Jr.: an Example of Determination"
 description: "A player with spectacular dribbles. Undoubtedly, the best Brazilian to play in one of the great European soccer leagues"
 permalink: 
 tags:
-  - Sports
   - Soccer
 date: 2022-06-09 15:07:30
 image:
