@@ -26,7 +26,6 @@ feature_alt: 'Brutal Feature Image'
 permalink: /posts/:title/
 
 plugins:
-  - jekyll-minifier
   - jekyll/tagging
 
 # Author
@@ -48,21 +47,6 @@ donate:
 # Tag settinngs
 tag_page_layout: tagged
 tag_page_dir: tags
-
-# Minifier Settings
-jekyll-minifier:
-  exclude:
-    - 'feed.xml'
-    - 'feed.json'
-    - 'sitemap.xml'
-    - 'robots.txt'
-  remove_spaces_inside_tags: true   # Default: true
-  remove_multi_spaces: true         # Default: true
-  remove_comments: true             # Default: true
-  remove_intertag_spaces: true      # Default: false
-  compress_css: true                # Default: true
-  compress_javascript: true         # Default: true
-  compress_json: true               # Default: true
 
 include:
 # For Cloudflare pages #
