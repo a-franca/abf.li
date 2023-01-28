@@ -14,5 +14,7 @@
 **Total words:** {{ totalWords | number_with_delimiter }} {% if totalWords >= 50000 %}(that's approximately {% if num-novels == 1 %} 1 novel) {% else %} {{ num-novels }} novels){% endif %}{% endif %}  
 **Average words per post:** {{ avgWords }}  
 **Total posts:** {{ site.posts.size }}  
-**Posts by year:**  
-{% assign posts_per_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}{% for post in site.posts %}{% assign year = post.date | date: "%Y" %}{% for current_year in posts_per_year %}{% if last_year != year and current_year.name == year %}* **{{ year }}:**  {{ current_year.size }}<br>{% endif %}{% endfor %}{% assign last_year = year %}{% endfor %}
+**Posts by year:**
+<ul> 
+{% assign posts_per_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}{% for post in site.posts %}{% assign year = post.date | date: "%Y" %}{% for current_year in posts_per_year %}{% if last_year != year and current_year.name == year %}<li> <strong>{{ year }}:</strong>  {{ current_year.size }}</li>{% endif %}{% endfor %}{% assign last_year = year %}{% endfor %}
+</ul>
