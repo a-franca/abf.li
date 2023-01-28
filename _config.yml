@@ -39,6 +39,7 @@ author:
   email: 'hello@abf.li'    
   git: 'https://git.abf.li/andre'
   mastodon: 'https://mstdn.abf.li/@andre'
+  mastodon-handle: '@andre@mstdn.abf.li' 
 
 donate:
   kofi: 'https://ko-fi.com/afranca'
