@@ -21,6 +21,14 @@ I really see that personal spaces like this (simple, accessible and decentralize
 
 {% include site-stats.html %}
 
+## Performance
+
+✅ Valid markup code for W3C on [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabf.li%2F){: rel="noopener noreferrer nofollow" target="_blank" }  
+✅ [Pagespeed benchmark](https://pagespeed.web.dev/report?url=https%3A%2F%2Fabf.li%2F){: rel="noopener noreferrer nofollow" target="_blank" } score: 100  
+✅ [GTmetrix](https://gtmetrix.com){: rel="noopener noreferrer nofollow" target="_blank" } performance report:  
+* Grade: A (100% performance, 100% structure)
+* Fully loaded time: 113 milliseconds
+
 ## Privacy and Terms
 
 I do not track you. This website does not have analytics, cookies of any kind, third-party web fonts or social network buttons that track you.
