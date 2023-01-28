@@ -52,7 +52,7 @@ Last but not least, this site provides both an [RSS](/feed.xml) and a [JSON](/fe
 ## Elsewhere...
 
 * **Email** ~ [{{ site.author.email }}](mailto:{{ site.author.email }})
-* **Mastodon** ~ [{{ site.author.mastodon }}]({{ site.author.mastodon }} "Follow on Mastodon"){: rel="me noopener" target="_blank" }
+* **Mastodon** ~ [{{ site.author.mastodon-handle }}]({{ site.author.mastodon }} "Follow on Mastodon"){: rel="me noopener" target="_blank" }
 * **Git** ~ [{{ site.author.git }}]({{ site.author.git }} "Source Code Repository"){: rel="me noopener" target="_blank" }
 
 *[FOSS]: Free and Open Source Software
