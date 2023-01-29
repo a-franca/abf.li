@@ -6,9 +6,6 @@
 
   {% include favicon.html %}
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
-
   <!-- Feed -->
   <link rel="alternate" type="application/rss+xml" href="{{ site.feed.rss | prepend: site.url }}" title="{{ site.title }}">
   <link rel="alternate" type="application/json" href="{{ site.feed.json | prepend: site.url }}" title="{{ site.title }}">
@@ -18,5 +15,7 @@
 
   <!-- Darktheme -->
   <meta name="color-scheme" content="dark light">
+
+  {% include style.html %}
 
 </head>
