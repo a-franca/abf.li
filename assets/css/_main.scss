@@ -63,7 +63,7 @@ main,
 header,
 footer {
     display: block;
-    max-width: 30rem;
+    max-width: 40rem;
     margin: 0 auto;
 }
 
@@ -171,6 +171,7 @@ h4 code {
 
 p {
     margin: var(--content-margin);
+    text-align: justify;
 }
 
 a,
@@ -257,7 +258,7 @@ figcaption {
     font-weight: bold;
     border: var(--standard-border);
     padding-top: 0.2rem;
-    width: 14.5rem;
+    width: 19.32rem;
 }
 
 .donate::before {
@@ -529,6 +530,10 @@ details[open]>*:last-child {
     border-bottom: 2px dashed var(--main-text-color);
 }
 
+.post-nav p {
+    text-align: left;
+}
+
 .post-nav a {
     font-weight: bold;
 }
@@ -545,7 +550,7 @@ details[open]>*:last-child {
     Small screens settings
 ========================================================================== */
 
-@media(max-width:600px) {
+@media(max-width:750px) {
     
     /* After Article Notice/Comments */
 
@@ -569,6 +574,7 @@ details[open]>*:last-child {
         left: -1.14rem;
         top: -2rem;
         padding: 0.2rem 0 0.1rem;
+        width: 14rem;
     }
 
     /* Tag Cloud */
