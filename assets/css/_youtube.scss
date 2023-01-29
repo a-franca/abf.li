@@ -40,7 +40,7 @@ Youtube iframe
     font-weight: bold;
     border: var(--standard-border);
     padding-top: 0.1rem;
-    width: 29.76rem;
+    width: 39.76rem;
     content: "WARNING";
     background: var(--warning-color);
 }
@@ -55,7 +55,7 @@ Youtube iframe
     Small screens settings
 ========================================================================== */
 
-@media(max-width:600px) {
+@media(max-width:750px) {
     .yt-warning {
         margin: 3.5rem 0 2rem;
     }
@@ -63,6 +63,6 @@ Youtube iframe
     .yt-warning::before {
         top: -1.1rem;
         padding: 0.2rem 0 0.1rem;
-        width: 14.5rem;
+        width: 14rem;
     }
 }
