@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Monthly Roundup - September, 2022"
+title: "Andre Updates: September, 2022"
 description: "Everything that happened in the previous month and a few more updates."
 permalink: 
 tags:
