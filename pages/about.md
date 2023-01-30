@@ -27,7 +27,7 @@ I really see that personal spaces like this (simple, accessible and decentralize
 ✅ [Pagespeed benchmark](https://pagespeed.web.dev/report?url=https%3A%2F%2Fabf.li%2F){: rel="noopener noreferrer nofollow" target="_blank" } score: 100  
 ✅ [GTmetrix](https://gtmetrix.com){: rel="noopener noreferrer nofollow" target="_blank" } performance report:  
 * Grade: A (100% performance, 100% structure)
-* Fully loaded time: 113 milliseconds
+* Fully loaded time: 91 milliseconds
 
 ## Privacy and Terms
 
