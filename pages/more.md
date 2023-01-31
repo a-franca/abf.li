@@ -16,7 +16,7 @@ date: 2022-12-15 10:00:00
 
 [**Search**](/search/): Looking for something? This is where to start.
 
-[**Tags**](/tags/): Look up for posts by tags.
+[**Tags**](/tags/): Look up posts by tags.
 
 [**Uses**](/uses/): Collection of hardware and software I currently use.
 
