@@ -2,7 +2,7 @@
 
 Personal blog/website. 
 
-This site was created using [Jekyll](https://jekyllrb.com), and it's inspired on [Bradley Taunt's](https://bt.ht/) minimalist website.
+This site was created using [Jekyll](https://jekyllrb.com), and it's based on [Bradley Taunt's](https://bt.ht/) minimalist website.
 
 # License
 
