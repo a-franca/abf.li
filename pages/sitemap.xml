@@ -10,7 +10,7 @@ permalink: "/sitemap.xml"
 	<url>
 		<loc>{{ page.url | prepend: site.url }}</loc>
 		{% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>{% endif %}
-		<changefreq>monthly</changefreq>
+		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	{% endif %}
