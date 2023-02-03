@@ -6,7 +6,7 @@ permalink:
 tags:
   - Technology
   - Indieweb
-  - Blog
+  - Blogging
   - Static Site
   - Codeberg
   - Github

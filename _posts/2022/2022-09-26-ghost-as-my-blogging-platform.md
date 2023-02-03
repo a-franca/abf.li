@@ -5,7 +5,7 @@ description: "To truthfully make my static site publishing easier, I switched to
 permalink: 
 tags:
   - Blogging
-  - CMS
+  - Ghost CMS
 date: 2022-09-26 10:00:00
 image: 
 ---
