@@ -7,7 +7,7 @@
     {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-<meta name="description" content="{% if page.tag %}Posts tagged {{ page.tag }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="description" content="{% if page.tag %}List of blog posts tagged {{ page.tag }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="author" content="{{ site.author.name }}">
 
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
