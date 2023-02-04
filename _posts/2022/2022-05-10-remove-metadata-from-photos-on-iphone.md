@@ -51,7 +51,7 @@ That's why this tip comes in hand.
 
 ### When you're done, your shortcut settings should look like this:
 
-![](/assets/images/general/FDFF0A0A-EEF5-408C-A766-80B2547B7A57.webp){: loading="lazy" }
+![Shortcut settings](/assets/images/general/FDFF0A0A-EEF5-408C-A766-80B2547B7A57.webp){: loading="lazy" }
 
 ## Using the Shortcut
 
@@ -61,7 +61,7 @@ That's why this tip comes in hand.
 
 * Now, just share the new created file.
 
-![](/assets/images/general/F5FEFED3-595F-47A5-A222-6698067B29EE.webp){: loading="lazy" }
+![Sharing an image removing metadata](/assets/images/general/F5FEFED3-595F-47A5-A222-6698067B29EE.webp){: loading="lazy" }
 
 This is a quick method you can use to share your photos with a little more privacy from your phone.
 
