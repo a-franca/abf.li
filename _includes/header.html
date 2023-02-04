@@ -1,5 +1,5 @@
 <header>
-    <h1 class="site-title">{{ site.title }}</h1>
+    <p class="site-title">{{ site.title }}</p>
     <nav> 
         {% for item in site.data.navigation %}
         <a {% if page.url == item.url and item.class == 'hide-menu'%}id="current" class="hide-menu"{% elsif page.url == item.url %}id="current"{% elsif item.class == "hide-menu" %}class="hide-menu"{% endif %} href="{{ item.url }}">{{ item.name }}</a>
