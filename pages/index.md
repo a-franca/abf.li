@@ -6,8 +6,8 @@ permalink: /
 date: 2022-12-15 10:00:00
 ---
 
-{: .index-title }
-Hi, I'm Andre, and this is my personal blog.
+{: .index-title}
+# Hi, I'm Andre, and this is my personal blog.
 
 Here, you will see me writing about things I love and my thoughts on many different topics, specially technology, of which I am a great enthusiast by the way.
 
