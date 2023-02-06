@@ -1,5 +1,5 @@
 /*
-  X-Robots-Tag: index; follow
+  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   Access-Control-Allow-Origin: *.abf.li
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
