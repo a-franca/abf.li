@@ -9,6 +9,6 @@ date: 2022-12-15 10:00:00
 <ul>
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
-    <li><a href="/tags/{{ tag | first | slugify }}">{{ tag | first }}</a> ({{ tag | last | size }})</li>
+    <li><a href="/tags/{{ tag | first | slugify }}/">{{ tag | first }}</a> ({{ tag | last | size }})</li>
   {% endfor %}
 </ul>

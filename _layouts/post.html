@@ -7,7 +7,7 @@ layout: default
   <p class="post-meta">
   Published: {{ page.date | date: "%B %-d, %Y" }}<br>
   {{ page.content | number_of_words }} words {% if num-words <= 183 %} &middot; 1 minute to read {% else %} &middot; {% include reading-time.html %}{% endif %}<br>
-  Tagged: {% for tag in page.tags %}<a href="/tags/{{ tag | slugify: 'pretty' }}">#{{ tag | slugify: 'pretty' }}</a>{% unless forloop.last == true %},&nbsp;{% endunless %}{% if forloop.last == true %}.{% endif %}{% endfor %}
+  Tagged: {% for tag in page.tags %}<a href="/tags/{{ tag | slugify: 'pretty' }}/">#{{ tag | slugify: 'pretty' }}</a>{% unless forloop.last == true %},&nbsp;{% endunless %}{% if forloop.last == true %}.{% endif %}{% endfor %}
   </p>
 
   <article>
@@ -17,7 +17,7 @@ layout: default
   <!-- After Article -->
   <div class="after-article">
     <p class="notice"><strong>Questions, comments or concerns?</strong><br>I'd love to hear your thoughts! Please share them through <a href="mailto:{{ site.author.email }}?subject=Re: {{ page.title }}">email</a> or <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">Mastodon</a>.</p>
-    <p class="donate"><strong>Did you find this article helpful?</strong><br>If you're feeling generous, consider <a href="/donate/">donating</a> to show your support.</p>
+    <p class="donate"><strong>Did you find this article helpful?</strong><br>If you're feeling generous, consider <a href="/donate">donating</a> to show your support.</p>
   </div>
     <!-- end -->
 

@@ -19,7 +19,7 @@ With that in mind, I started looking for a tool capable of performing this funct
 For a number of reasons, it turned out that Simple Jekyll Search would fit my blog better, as long as I gave up the idea of not using JavaScript. 
 
 
-It is worth mentioning that you will always have the option to access my posts in the [archive](/archive/), which lists them chronologically
+It is worth mentioning that you will always have the option to access my posts in the [archive](/archive), which lists them chronologically
 
 Kev's guide or the Simple jekyll search's repository are pretty straight forward if you want to go over the details on how to set it up yourself on your own website. I liked Kev's approach of specifying a search page, so we don't have to deal with `.js` in the whole site.
 

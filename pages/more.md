@@ -8,15 +8,15 @@ date: 2022-12-15 10:00:00
 
 
 
-[**Archive**](/archive/): All published posts over time.
+[**Archive**](/archive): All published posts over time.
 
-[**Blogroll**](/blogroll/): My favorite blogs around the world wide web.
+[**Blogroll**](/blogroll): My favorite blogs around the world wide web.
 
 [**RSS**](/feed.xml) / [**JSON**](/feed.json) Feed: This is the best way to follow me.
 
-[**Search**](/search/): Looking for something? This is where to start.
+[**Search**](/search): Looking for something? This is where to start.
 
-[**Tags**](/tags/): Look up posts by tags.
+[**Tags**](/tags): Look up posts by tags.
 
-[**Uses**](/uses/): Collection of hardware and software I currently use.
+[**Uses**](/uses): Collection of hardware and software I currently use.
 
