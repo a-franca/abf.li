@@ -9,6 +9,7 @@ timezone: 'America/New_York'
 license: 'CC BY-NC-SA 4.0'
 robots: '/robots.txt'
 sitemap: '/sitemap.xml'
+source_code: 'https://git.abf.li/andre/website'
 feed:
   rss: '/feed.xml'
   json: '/feed.json'
