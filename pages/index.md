@@ -37,7 +37,7 @@ Last but not least, this site provides both an [RSS](/feed.xml) and a [JSON](/fe
     {% endfor %}
     <tr>
       <td>
-        &#8618; See <a href="{{ '/archive' }}">Archive</a> for older posts.
+        &#8618; See <a href="{{ '/posts/' }}">Archive</a> for older posts.
       </td>
       <td></td>
      </tr> 

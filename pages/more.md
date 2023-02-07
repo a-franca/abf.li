@@ -8,7 +8,7 @@ date: 2023-01-15
 
 
 
-[**Archive**](/archive): All published posts over time.
+[**Archive**](/posts/): All published posts over time.
 
 [**Blogroll**](/blogroll): My favorite blogs around the world wide web.
 
