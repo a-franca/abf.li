@@ -8,7 +8,7 @@ permalink: "/sitemap.xml"
 	{% for page in site.pages %}
 	{% if page.url contains '.xml' or page.url contains '/assets/' or page.url contains '.json' or page.url contains '404.html' or page.url contains '.txt' %}{% else %}
 	<url>
-		<loc>{{ page.url | prepend: site.url }}</loc>
+		<loc>{% if page.url == '/' %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endif %}</loc>
 		<lastmod>{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
 	</url>
 	{% endif %}
