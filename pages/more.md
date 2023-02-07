@@ -3,7 +3,7 @@ layout: page
 title: "More interesting stuff"
 description: 'More interesting stuff on this blog'
 permalink: more
-date: 2022-12-15 10:00:00
+date: 2023-01-15
 ---
 
 

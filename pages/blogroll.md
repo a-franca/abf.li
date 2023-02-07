@@ -3,7 +3,7 @@ layout: page
 title: 'Blogroll'
 description: "My favorite blogs around the world wide web"
 permalink: blogroll
-date: 2022-12-15 10:00:00
+date: 2023-01-15
 ---
 
 <p>My favorite blogs around the world wide web, in no order of preference.</p>

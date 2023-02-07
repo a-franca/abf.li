@@ -3,7 +3,7 @@ layout: page
 title: "Things I Use"
 description: "Collection of hardware and software I currently use"
 permalink: uses
-date: 2022-12-15 10:00:00
+date: 2023-01-15
 ---
 
 This page is a collection of hardware and software I currently use.

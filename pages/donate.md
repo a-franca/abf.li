@@ -3,7 +3,7 @@ layout: page
 title: "Donate"
 description: "Help support this blog or show your appreciation"
 permalink: donate
-date: 2022-12-15 10:00:00
+date: 2023-01-15
 ---
 
 If you enjoyed any of my content or something that I wrote helped or inspired you in any way, you can make a donation to show your support.[^1]
