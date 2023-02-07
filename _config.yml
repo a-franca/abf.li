@@ -49,7 +49,7 @@ donate:
 tag_page_layout: tagged
 tag_page_dir: tags
 
-include:
+#include:
 # For Cloudflare pages #
 #  - _headers
 #  - _redirects
