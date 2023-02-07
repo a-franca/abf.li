@@ -3,7 +3,6 @@ layout: page
 title: "Tags Directory"
 description: "List of tags used in this blog"
 permalink: tags
-date: 2022-12-15 10:00:00
 ---
 
 <ul>

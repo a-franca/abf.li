@@ -3,7 +3,6 @@ layout: page
 title: "Home"
 description: "The personal blog of Andre Franca"
 permalink: /
-date: 2022-12-15 10:00:00
 ---
 
 {: .index-title}

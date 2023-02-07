@@ -3,7 +3,6 @@ layout: page
 title: Archive
 description: "All published posts over time"
 permalink: archive
-date: 2022-12-15 10:00:00
 ---
 
 Feel free to <kbd>CMD+F</kbd> / <kbd>CTRL+F</kbd> to look up posts, or see [Search](/search).
