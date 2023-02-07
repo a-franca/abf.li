@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/410113a6-5803-48a2-bcfd-7403ab144655/deploy-status)](https://app.netlify.com/sites/abf-website/deploys)
+
 # ~abf.li
 
 Personal blog/website. 
