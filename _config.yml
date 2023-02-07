@@ -51,8 +51,8 @@ tag_page_dir: tags
 
 include:
 # For Cloudflare pages #
-  - _headers
-  - _redirects
+#  - _headers
+#  - _redirects
   
 # Includes / Excludes
 exclude:
