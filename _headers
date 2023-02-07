@@ -1,9 +1,8 @@
 /*
-  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
   Access-Control-Allow-Origin: *.abf.li
   X-Frame-Options: SAMEORIGIN
   X-Content-Type-Options: nosniff
-  Referrer-Policy: same-origin
+  Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: interest-cohort=(), microphone=(), geolocation=(), camera=(), autoplay=()
   Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube-nocookie.com https://youtube-nocookie.com;
-  Strict-Transport-Security: max-age=31536000
+  

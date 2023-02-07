@@ -49,10 +49,9 @@ donate:
 tag_page_layout: tagged
 tag_page_dir: tags
 
-#include:
-# For Cloudflare pages #
-#  - _headers
-#  - _redirects
+include:
+# For Netlify
+  - _headers
   
 # Includes / Excludes
 exclude:
