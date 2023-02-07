@@ -5,14 +5,14 @@ permalink: "/feed.xml"
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" {% if site.locale %}xml:lang="{{ site.locale }}"{% endif %}>
-  <link rel="alternate" type="text/html" {% if site.locale %}hreflang="{{ site.locale }}" {% endif %} href="{{ '/' | prepend: site.url | xml_escape }}"/>
+  <link rel="alternate" type="text/html" {% if site.locale %}hreflang="{{ site.locale }}" {% endif %} href="{{ site.url | xml_escape }}"/>
   <link rel="self" type="application/atom+xml" href="{{ site.feed.rss | prepend: site.url | xml_escape }}" />
   <title type="html">{{ site.title | xml_escape }}</title>
   <subtitle>{{ site.description | xml_escape }}</subtitle>
   <logo>{{ site.logo | prepend: site.url | xml_escape }}</logo>
   <icon>{{ '/favicon.ico' | prepend: site.url | xml_escape }}</icon>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ '/' | prepend: site.url | xml_escape }}</id>
+  <id>{{ site.url | xml_escape }}</id>
   <rights type="html">{{ site.license | xml_escape }}</rights>
   <author>
     <name>{{ site.author.name | xml_escape }}</name>

@@ -8,7 +8,7 @@ permalink: "/feed.json"
   "title": {{ site.title | jsonify }},
   "language": {{ site.locale | jsonify }},
   "description": {{ site.description | jsonify }},
-  "home_page_url": {{ '/' | prepend: site.url | jsonify }},
+  "home_page_url": {{ site.url | jsonify }},
   "feed_url": {{ site.feed.json | prepend: site.url | jsonify }},
   "icon": {{ site.logo | prepend: site.url | jsonify }},
   "favicon": {{ '/favicon.ico' | prepend: site.url | jsonify }},
