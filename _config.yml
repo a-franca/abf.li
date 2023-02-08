@@ -50,7 +50,7 @@ tag_page_layout: tagged
 tag_page_dir: tags
 
 include:
-# For Netlify
+# For Host Provider
   - _headers
   
 # Includes / Excludes
