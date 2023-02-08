@@ -13,7 +13,7 @@ I really see that personal spaces like this (simple, accessible and decentralize
 ## Website Facts and Stats
 
 **Built with:** [Jekyll](https://jekyllrb.com){: rel="noopener noreferrer nofollow" target="_blank" }  
-**Hosted on:** [Netlify](https://www.netlify.com/){: rel="noopener noreferrer nofollow" target="_blank" }  
+**Hosted on:** [Cloudflare](https://pages.cloudflare.com/){: rel="noopener noreferrer nofollow" target="_blank" }  
 **Source Code:** [Gitea]({{ site.source_code }}){: rel="me noopener" target="_blank" }  
 **Code License:** [MIT]({{ site.source_code }}/raw/branch/main/LICENSE){: rel="me noopener" target="_blank" }  
 **Content License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){: rel="noopener noreferrer nofollow" target="_blank" }   
