@@ -1,6 +1,5 @@
 /*
-  Access-Control-Allow-Origin: *.abf.li
-  X-Frame-Options: SAMEORIGIN
+  X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: interest-cohort=(), microphone=(), geolocation=(), camera=(), autoplay=()
