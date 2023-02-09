@@ -16,7 +16,8 @@ layout: default
 
   <!-- After Article -->
   <div class="after-article">
-    <p class="notice"><strong>Questions, comments or concerns?</strong><br>I'd love to hear your thoughts! Please share them through <a href="mailto:{{ site.author.email }}?subject=Re: {{ page.title }}">email</a> or <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">Mastodon</a>.</p>
+    {% assign email = '<a href="mailto:' | append: site.author.email | append: '?subject=Re: ' | append: page.title | append: '">email</a>' %}
+    <p class="notice"><strong>Questions, comments or concerns?</strong><br>I'd love to hear your thoughts! Please share them through {{ email }} or <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">Mastodon</a>.</p>
     <p class="donate"><strong>Did you find this article helpful?</strong><br>If you're feeling generous, consider <a href="/donate">donating</a> to show your support.</p>
   </div>
     <!-- end -->
