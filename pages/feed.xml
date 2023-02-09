@@ -26,9 +26,10 @@ permalink: "/feed.xml"
     <id>{{ post.id | prepend: site.url | xml_escape }}</id>
     <updated>{{ post.date | date_to_xmlschema | default: site.time }}</updated>
     <published>{{ post.date | date_to_xmlschema | default: site.time }}</published>
-    {% assign email = '<p>~Reply via <a href="mailto:' | append: site.author.email | append: '?subject=Re: ' | append: post.title | append: '">email</a>' %}
-    {% assign social = ' / <a href="' | append: site.author.mastodon | append: '">mastodon</a></p>' %}
-    <content type="html">{{ post.content | append: email | append: social | xml_escape }}</content>
+    {% assign message = '<br><hr><p>Thanks for reading this post via RSS!<br>Let me know your thoughts by leaving a message via ' %}
+    {% assign email = '<a href="mailto:' | append: site.author.email | append: '?subject=Re: ' | append: post.title | append: '">email</a>' %}
+    {% assign social = ' or <a href="' | append: site.author.mastodon | append: '">mastodon</a>.</p>' %}
+    <content type="html">{{ post.content | append: message | append: email | append: social | xml_escape }}</content>
     {% for tag in post.tags %}<category term="{{ tag | xml_escape }}" />{% endfor %}
     <summary type="html"><![CDATA[{{ post.description | strip_html | normalize_whitespace }}]]></summary>
     {% if post.image %}
