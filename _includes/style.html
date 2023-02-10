@@ -35,8 +35,7 @@
     h3{ font-size: 1.25rem; font-weight: 700;}
     h4{ font-size: var(--default-font-size); text-transform: uppercase; letter-spacing: 0.01rem; font-weight: 700;}
     h1 code, h2 code, h3 code, h4 code{ font-size: inherit; color: var(--accent-text-color);}
-    p{ margin: var(--content-margin); text-align: justify;}
-    @media(max-width:750px){ p{ text-align: left;}}
+    p{ margin: var(--content-margin); text-align: left;}
     a, a:visited{ color: var(--main-text-color); transition: color .1s ease-in-out,background-color .1s ease-in-out;}
     a:hover{ color: var(--link-color);}
     h2 a, h3 a, h2 a:visited, h3 a:visited{ color: var(--accent-text-color);}
@@ -48,7 +47,7 @@
     /* =============================================================================
         Post Metadata
     ========================================================================== */
-    .post-meta{ font-size: 1rem; margin: 0; text-align: left;}
+    .post-meta{ font-size: 1rem; margin: 0;}
     /* =============================================================================
         After Article Notice/Donate Boxes
     ========================================================================== */
@@ -62,7 +61,6 @@
     /* =============================================================================
         Tip, info and warning boxes
     ========================================================================== */
-    .info, .tip, .warning { text-align: left;}
     /* Info box */
     .info{ position: relative; padding: .75rem 1.25rem; margin: 2rem 0; border: 1px solid transparent; border-radius: .25rem; color: hsl(189, 78%, 21%); background-color: hsl(189, 53%, 88%); border-color: hsl(188, 53%, 83%);}
     .info::before{ content: url('/assets/images/icons/info.svg'); color: inherit; width: 1em; display: inline-block; padding-right: 0.5em; height: 1em; vertical-align: -0.15em;}
@@ -89,8 +87,8 @@
         Misc content elements
     ========================================================================== */
     blockquote{ font-size: 100%; margin: var(--bigger-content-margin); padding: 0 0.8rem; border-left: 6px solid var(--main-text-color); font-style: italic;}
-    table{ margin: var(--content-margin); border: var(--standard-border);}
-    table p{ text-align: left;}
+    table{ margin: 2.5em auto; width: 80%; border: var(--standard-border);}
+    @media(max-width:750px) { table{ width: 100%;}}
     th{ text-align: left; padding: .2rem .4rem; background: var(--accent-background-color);}
     td{ padding: .2rem .4rem;}
     tr:nth-child(2n){ background: var(--accent-background-color);}
@@ -101,7 +99,7 @@
         Footnotes
     ========================================================================== */
     .footnotes{ border-top: 1px dashed var(--main-text-color); padding: 0.5em 0 0 0; margin-top: 2em;}
-    .footnotes li, .footnotes p{ color: var(--main-text-color); font-size: 95%; text-align: left;}
+    .footnotes li, .footnotes p{ color: var(--main-text-color); font-size: 95%;}
     /* =============================================================================
     Footer
     ========================================================================== */
@@ -120,7 +118,6 @@
         Format the prev & next links on posts
     ========================================================================== */
     .post-nav{ border-top: 2px dashed var(--main-text-color); border-bottom: 2px dashed var(--main-text-color);}
-    .post-nav p{ text-align: left;}
     .post-nav a{ font-weight: bold;}
     /* =============================================================================
         Tag Cloud
@@ -136,7 +133,7 @@
     .webring .title{ margin: 0;}
     .webring .title a{ font-size: 80%;}
     .webring .article{ border: 1px solid; flex: 1 1 0; display: flex; flex-direction: column; margin: 0.2rem; padding: 0.5rem; min-width: 10rem;}
-    .webring .summary{ font-size: 75%; flex: 1 1 0; text-align: left;}
+    .webring .summary{ font-size: 75%; flex: 1 1 0;}
     .webring .source{ font-size: 80%;}
     .webring .date{ font-size: 80%;}
     .webring .attribution{ text-align: right; font-size: 90%;}
