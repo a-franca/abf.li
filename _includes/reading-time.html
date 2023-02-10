@@ -1,6 +1,7 @@
-{% capture words %}
-{{ content | number_of_words }}
-{% endcapture %}
-{% unless words contains '-' %}
-{{ words | divided_by: 183 | append: ' minutes to read' }}
-{% endunless %}
+{% assign words = page.content | number_of_words %}
+{% assign time = words | divided_by: 220 %}
+{% if time <= 1 %}
+1 minute to read
+{% else %}
+{{ time | append: " minutes to read "}}
+{% endif %}
