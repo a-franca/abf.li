@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Having a Bad Time with my Macbook "Pro"'
+title: "Having a Bad Time with my Macbook Pro"
 description: "Sharing my issues with my macbook pro"
 image:
 tags:
