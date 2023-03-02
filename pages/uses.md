@@ -3,7 +3,7 @@ layout: page
 title: "Things I Use"
 description: "Collection of hardware and software I currently use"
 permalink: uses
-date: 2023-01-15
+date: 2023-03-02
 ---
 
 This page is a collection of hardware and software I currently use.
@@ -14,38 +14,59 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 
 ### Laptop
 
-- MacBook Pro (2018)
-    - Processor: Core i5
-    - RAM: 8GB
-    - Storage: 128GB SSD
-    - OS: MacOS (latest)
+- Lenovo Legion 5i Pro Gen7
+    - Processor: 12th Gen Intel i7-12700H (14 Cores, 20 Threads, 24MB Cache)
+    - Graphics: NVIDIA GeForce RTX 3050 Ti
+    - Display: 16" (2560 x 1600) IPS, 500 nits, 165Hz
+    - Memory: 16GB DDR5 4800MHz
+    - Battery: 80Whr (in my tests around 5 hours)
+    - Storage: 1TB PCIe Gen 4
+    - OS: Windows 11
+    - Ports
+        - 1x Thunderbolt 4 (USB 4, DisplayPort 1.4)
+        - 2x USB Type-C (USB 3.2 Gen 2, DisplayPort 1.4)
+        - 3x USB-A 3.2 Gen 1
+        - Headphone / mic combo
+        - 1x HDMI
+        - 1x RJ45
+        - 1x DC-In
 
 ### Desktop
 
 - Custom PC
-    - Processor: Ryzen 5 3500
-    - RAM: 16GB
-    - Storage: 1TB NVMe
-    - Graphics: Nvidia RTX 2060
+    - Processor: Ryzen 5 3500 (6 Cores, 6 Threads, 4MB Cache)
+    - RAM: 16GB DDR4 3200MHz
+    - Storage: 1TB PCIe Gen 3
+    - Graphics: NVIDIA GeForce RTX 2060
     - Keyboard Akkon 3084B
-    - OS: Dualboot of Arch and Windows 10
-    - Samsung 27” 4K Monitor
+    - OS: Windows 10
+    - Samsung 27” 4K Monitor, 60Hz
 
-### Thinkering
+### Small-factor
 
 - Raspberry Pi 400
-    - RAM: 4GB
+    - Processor: Broadcom BCM2711 quad-core Cortex-A72
+    - RAM: 4GB LPDDR4-3200
     - OS: Ubuntu (latest LTS)
+    - Ports:
+        - 2x micro HDMI
+        - 2x USB 3.0
+        - 1x RJ45
+        - 1x USB 2.0
+        - 1x USC-C power
+        - 1x MicroSD card slot
 
 ### Mobile
 
 - iPhone 11 Pro Max
+    - Processor: A13 Bionic
     - Storage: 64GB
     - OS: iOS (latest)
-
+^
 - iPad Mini 3
+    - Processor: Apple A7
     - Storage: 128GB
-    - OS: IOS (latest available)
+    - OS: iOS (latest available)
 
 ### Audio
 
@@ -55,6 +76,7 @@ Some people on my blogroll have a similar page, and I think it's really useful a
     - Output:
         - 3.5mm (Unbalanced) 1.1Vrms 109dB (2.8dBu) SNR
         - 2.5mm (Balanced) 2.2Vrms 110dB (+8.8dBu) SNR
+^        
 - Tin HiFi T2 Pro In Ear Earphone
     - Drive unit: Dynamic 10MM woofer + 6MM Tweeter (2DD drive unit)
     - Earphone sensitivity: 102dB/mW
@@ -63,49 +85,22 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 
 ## Software
 
-### Open Source
-
-- VSCodium 
-- Librewolf / Brave / TOR Browser
+- VSCode 
+- Firefox / Brave
 - Signal
-- Bitwarden
+- KeepassXC
 - Jellyfin
 - Pocket Cast
 - NetNewsWire
-- Thunderbird
-- LuLu (firewall)
-- Gitea
-- Alacritty (terminal emulator)
-
-### Paid • Proprietary
-
-- Sublime Text
-- Sublime Merge
-
-### Free • Proprietary
-
-- Apple Mail (Mobile Version)
-- Obsidian [^1]
+- Joplin
 
 ## Services
 
-### Freemium • Proprietary
-
-- iCloud+ [^2]
-- Tailscale [^3]
-
-### Freemium • Open Source
-
+- iCloud+
+- Tailscale
 - SimpleLogin / Anonaddy
-- Miniflux
-
-### Paid • Open Source
-
+- Gitea
+- Nextcloud
 - IVPN
 
-[^1]: In the recent past, I've been using Joplin due to the ability to encrypt my notes. Obsidian sync plan ($8, billed yearly) is still a bit overkill to me, however with the new Advanced Data Protection for iCloud, I decided to go back to Obsidian.
-
-[^2]: Nextcloud and Cryptomator were used in place of iCloud+ (shared with my family), but again, with Advanced Data Protection for iCloud I simply can't justify the headache of managing one more VPS.
-
-[^3]: Everything in Tailscale is Open Source, except the GUI clients for proprietary OS (Windows and macOS/iOS), and the control server.
-
+Last modified: {{ page.date | date: "%B %-d, %Y" }}
