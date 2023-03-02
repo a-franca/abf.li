@@ -8,7 +8,7 @@ permalink: /
 {: .index-title}
 # Hi, I'm Andre, and this is my personal blog.
 
-Here, you will see me writing about things I love and my thoughts on many different topics, specially technology, of which I am a great enthusiast by the way.
+Here, you will see me writing about things I love and my thoughts on different topics, specially technology, of which I am a great enthusiast by the way.
 
 In my spare time, I study programming languages.  
 I want to be able to contribute, not only financially, to FOSS projects that I like, or to develop a useful application some day as a hobby project.

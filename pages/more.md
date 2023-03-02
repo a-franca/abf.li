@@ -10,7 +10,7 @@ date: 2023-01-15
 
 [**Archive**](/posts/): All published posts over time.
 
-[**Blogroll**](/blogroll): My favorite blogs around the world wide web.
+[**Blogroll**](/blogroll): My favorite blogs around the World Wide Web.
 
 [**RSS**](/feed.xml) / [**JSON**](/feed.json) Feed: This is the best way to follow me.
 

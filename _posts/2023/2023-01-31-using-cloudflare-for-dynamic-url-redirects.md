@@ -11,9 +11,9 @@ date: 2023-01-31 10:00:00
 
 A couple of days ago, a [domain switch]({% link _posts/2023/2023-01-28-new-domain-name.md %}) took place on this website, and I wanted to have a way to dynamically[^1] forward URLs from the old domain to the new one, preserving the current permalink structure.
 
-Searching the web, I came across the "[Using Netlify for Dynamic URL Redirects](https://bt.ht/netlify-urls/){: rel="noopener noreferrer nofollow" target="_blank"}" article, written by Brad Taunt. Problem is, I didn't want to signup for Netlify just for that.
+Searching the web, I came across the "[Using Netlify for Dynamic URL Redirects](https://bt.ht/netlify-urls/){: rel="noopener noreferrer nofollow" target="_blank"}" article, written by Brad Taunt. Problem is, I didn't want to sign up for Netlify just for that.
 
-My blog is already hosted on Cloudflare, so it made sense to me to use it for the redirects too. I checked their documentation to see if somenthing similiar could be achieved. And it is, in fact, really simple and free. 
+My blog is already hosted on Cloudflare, so it made sense to me to use it for the redirects too. I checked their documentation to see if something similar could be achieved. And it is, in fact, really simple and free. 
 
 ## Steps to reproduce
 
