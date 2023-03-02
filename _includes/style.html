@@ -87,7 +87,7 @@
         Misc content elements
     ========================================================================== */
     blockquote{ font-size: 100%; margin: var(--bigger-content-margin); padding: 0 0.8rem; border-left: 6px solid var(--main-text-color); font-style: italic;}
-    table{ margin: 2.5em auto; width: 80%; border: var(--standard-border);}
+    table{ margin: 2.5em auto; width: 100%; border: var(--standard-border);}
     @media(max-width:750px) { table{ width: 100%;}}
     th{ text-align: left; padding: .2rem .4rem; background: var(--accent-background-color);}
     td{ padding: .2rem .4rem;}
@@ -129,15 +129,14 @@
     Openring
     ========================================================================== */
     .webring .description{ padding: 0;}
-    .webring .articles{ display: flex; flex-wrap: wrap; margin: 1rem 0;}
+    .webring .articles{ margin: 1rem 0;}
     .webring .title{ margin: 0;}
     .webring .title a{ font-size: 80%;}
-    .webring .article{ border: 1px solid; flex: 1 1 0; display: flex; flex-direction: column; margin: 0.2rem; padding: 0.5rem; min-width: 10rem;}
-    .webring .summary{ font-size: 75%; flex: 1 1 0;}
+    .webring .article{ border: 1px solid; flex: 1 1 0; display: flex; flex-direction: column; margin: 0.5rem 0; padding: 0.5rem; min-width: 10rem;}
+    .webring .summary{ font-size: 90%; flex: 1 1 0;}
     .webring .source{ font-size: 80%;}
     .webring .date{ font-size: 80%;}
     .webring .attribution{ text-align: right; font-size: 90%;}
-    @media(max-width:750px) { .webring .summary{ font-size: 90%} .webring .article{ margin: 0.5rem}}
     /* =============================================================================
     Lunr Search
     ========================================================================== */
