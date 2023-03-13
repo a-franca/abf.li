@@ -7,5 +7,5 @@ _site/
 vendor/
 Gemfile.lock
 .DS_Store
-build-site.sh
+openring.sh
 serve-site.sh
