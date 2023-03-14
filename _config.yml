@@ -50,13 +50,13 @@ tag_page_layout: tagged
 tag_page_dir: tags
 
 include:
-# For Host Provider
+# For Hosting Provider
   - _headers
   
 # Includes / Excludes
 exclude:
   - _draft/
-  - build-site.sh
+  - openring.sh
   - serve-site.sh
   - .sass-cache/
   - .jekyll-cache/
@@ -70,3 +70,7 @@ exclude:
   - vendor/
   - LICENSE
   - README.md
+
+algolia:
+  application_id: NEW7XB9S8O
+  index_name:     abf-li
