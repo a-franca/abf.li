@@ -1,7 +1,5 @@
 _draft/
 _site/
-_includes/search-lunr.html
-assets/js/lunr-min.js
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
