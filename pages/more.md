@@ -6,8 +6,6 @@ permalink: more
 date: 2023-01-15
 ---
 
-
-
 [**Archive**](/posts/): All published posts over time.
 
 [**Blogroll**](/blogroll): My favorite blogs around the World Wide Web.
