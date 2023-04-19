@@ -8,10 +8,6 @@
   url: /#contact
   class: hide-menu
 
-- name: "Donate"
-  url: /donate
-  class: hide-menu
-
 - name: "RSS"
   url: /feed.xml
 

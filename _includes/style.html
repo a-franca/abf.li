@@ -2,11 +2,11 @@
     /* =============================================================================
         Global variables
     ========================================================================== */
-    :root{ --main-text-color: hsl(0, 0%, 27%); --accent-text-color: hsl(0, 0%, 0%); --main-background-color: hsl(0, 0%, 98%); --accent-background-color: hsl(0, 0%, 94%); --warning-color: hsl(48, 100%, 83%); --notice-color: hsl(216, 100%, 83%); --donate-color: hsl(121, 100%, 83%); --link-color: hsl(0, 66%, 51%);; --sans: sans-serif; --mono: monospace; --default-font-size: 1.125em; --default-line-height: 1.618; --content-margin: 1.5rem auto; --bigger-content-margin: 2.5rem auto; --standard-border: 2px solid var(--main-text-color); --dashed-border: 2px dashed var(--main-text-color);}
+    :root{ --main-text-color: hsl(0, 0%, 27%); --accent-text-color: hsl(0, 0%, 0%); --main-background-color: hsl(0, 0%, 98%); --accent-background-color: hsl(0, 0%, 94%); --warning-color: hsl(48, 100%, 83%); --notice-color: hsl(216, 100%, 83%); --link-color: hsl(0, 66%, 51%);; --sans: sans-serif; --mono: monospace; --default-font-size: 1.125em; --default-line-height: 1.618; --content-margin: 1.5rem auto; --bigger-content-margin: 2.5rem auto; --standard-border: 2px solid var(--main-text-color); --dashed-border: 2px dashed var(--main-text-color);}
     /* =============================================================================
         Global variables [for Dark Mode]
     ========================================================================== */
-    @media (prefers-color-scheme: dark){ :root{ --main-text-color: hsl(0, 0%, 80%); --accent-text-color: hsl(0, 0%, 98%); --main-background-color: hsl(0, 0%, 13%); --accent-background-color: hsl(0, 0%, 18%); --warning-color: hsl(46, 54%, 37%); --notice-color: hsl(216, 63%, 50%); --donate-color: hsl(164, 65%, 41%); --link-color: hsl(193, 85%, 50%)} img{ opacity:80%}}
+    @media (prefers-color-scheme: dark){ :root{ --main-text-color: hsl(0, 0%, 80%); --accent-text-color: hsl(0, 0%, 98%); --main-background-color: hsl(0, 0%, 13%); --accent-background-color: hsl(0, 0%, 18%); --warning-color: hsl(46, 54%, 37%); --notice-color: hsl(216, 63%, 50%); --link-color: hsl(193, 85%, 50%)} img{ opacity:80%}}
     /* =============================================================================
         Body Elements
     ========================================================================== */
@@ -49,15 +49,13 @@
     ========================================================================== */
     .post-info{ font-size: 1rem; margin: 0;}
     /* =============================================================================
-        After Article Notice/Donate Boxes
+        After Article Notice Boxes
     ========================================================================== */
-    .after-article{ border-top: 2px dashed var(--main-text-color); display: flex; justify-content: space-between;}
-    .donate br, .notice br{ content: ""; margin: 0.5em; display: block;}
-    .donate, .notice{ width: calc(48% - 8px); margin: 3rem 0 2rem; font-size: 90%; border: var(--standard-border); text-align: center; padding: 0 0.3rem 1.5rem;}
-    .donate::before, .notice::before{ color: var(--accent-text-color); display: block; position: relative; left: -0.44rem; top: -1rem; font-weight: bold; border: var(--standard-border); padding-top: 0.2rem; width: 19.32rem;}
-    .donate::before{ content: "DONATE"; background: var(--donate-color);}
-    .notice::before{ content: "NOTICE"; background: var(--notice-color);}
-    @media(max-width:750px) { .after-article{ flex-wrap: wrap; justify-content: flex-end; padding: 2em 0 1.5em} .donate, .notice{ margin: 1.2rem 0; width: 100%; line-height: 1.2em; font-size: 100%; padding: 1rem 1rem 2rem} .donate::before, .notice::before{ left: -1.14rem; top: -2rem; padding: 0.2rem 0 0.1rem; width: 14rem}}
+    .after-article{ border-top: 2px dashed var(--main-text-color);}
+    .notice br{ content: ""; margin: 0.5em; display: block;}
+    .notice{ margin: 3rem 0 2rem; font-size: 90%; border: var(--standard-border); text-align: center; padding: 0 4rem 1rem;}
+    .notice::before{ color: var(--accent-text-color); display: block; position: relative; left: -4.14rem; top: -1rem; font-weight: bold; border: var(--standard-border); padding-top: 0.1rem; width: 39.76rem; content: "NOTICE"; background: var(--notice-color);}
+    @media(max-width:750px) { .after-article{ flex-wrap: wrap; justify-content: flex-end; padding: 2em 0 1.5em} .notice{ margin: 3.5rem 0 2rem} .notice::before{ top: -1.1rem; padding: 0.2rem 0 0.1rem; width: 14rem}}
     /* =============================================================================
         Tip, info and warning boxes
     ========================================================================== */
