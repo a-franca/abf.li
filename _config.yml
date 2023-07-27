@@ -41,10 +41,6 @@ author:
   mastodon: 'https://mstdn.abf.li/@andre'
   mastodon-handle: '@andre@mstdn.abf.li' 
 
-donate:
-  kofi: 'https://ko-fi.com/afranca'
-  stripe: 'https://donate.stripe.com/fZeaIybtfeXcdnadQQ'
-
 # Tag settinngs
 tag_page_layout: tagged
 tag_page_dir: tags
