@@ -14,9 +14,9 @@ I really see that personal spaces like this (simple, accessible and decentralize
 
 **Built with:** [Jekyll](https://jekyllrb.com){: rel="noopener noreferrer nofollow" target="_blank" }  
 **Hosted on:** [Netlify](netlify.com){: rel="noopener noreferrer nofollow" target="_blank" }  
-**Source Code:** [Gitea]({{ site.source_code }}){: rel="me noopener" target="_blank" }  
-**Code License:** [MIT]({{ site.source_code }}/raw/branch/main/LICENSE){: rel="me noopener" target="_blank" }  
-**Content License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){: rel="noopener noreferrer nofollow" target="_blank" }   
+**Source Code:** [Github]({{ site.source_code }}){: rel="me noopener" target="_blank" }  
+**Code License:** [MIT]({{ site.source_code }}/raw/main/LICENSE){: rel="me noopener" target="_blank" }  
+**Content License:** [{{ site.license }}](https://creativecommons.org/licenses/by-nc-sa/4.0/){: rel="noopener noreferrer nofollow" target="_blank" }   
 **Developed on:**  Lenovo Legion i5 Pro Gen7  
 
 {% include site-stats.html %}
