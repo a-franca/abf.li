@@ -86,11 +86,9 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 ## Software
 
 - VSCode 
-- Firefox / Brave
+- Brave / Mullvad Browser
 - Signal
 - KeepassXC
-- Jellyfin
-- Pocket Cast
 - NetNewsWire
 - Joplin
 
@@ -99,7 +97,6 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 - iCloud+
 - Tailscale
 - SimpleLogin / Anonaddy
-- Gitea
 - Nextcloud
 - IVPN
 
