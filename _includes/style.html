@@ -15,21 +15,22 @@
     main, header, footer{ display: block; max-width: 40rem; margin: 0 auto;}
     main{ margin-bottom: 3em;}
     article{ padding: 1em 0;}
-    .index-title{ margin-top: 4em; font-size: 18px; font-weight: normal; color: var(--main-text-color);}
+    .index-title{ margin-top: 3em; font-size: 18px; font-weight: normal; color: var(--main-text-color);}
     /* =============================================================================
         Format Nav
     ========================================================================== */
     nav{ border-top: var(--standard-border); font-weight: 600; line-height: 2.50;}
     nav a, nav a:visited{ padding: 0.65rem 1rem 0 0; text-decoration: none; margin: 0;}
     nav a#current{ color: var(--link-color);}
-    .site-title{ margin: 3rem 0 0; text-transform: uppercase; letter-spacing: 0.1em; font-size: 1.2rem; font-weight: 600; color: var(--accent-text-color);}
+    .site-title{ margin: 3rem 0 0; text-transform: uppercase; letter-spacing: 0.1em; font-size: 1.3rem; font-weight: 600; color: var(--accent-text-color);}
     /* .site-title::after{ display: inline-block; content: ""; width: .20em; height: .20em; margin-right: 0.1em; background: var(--link-color); border-radius: .0625rem;} */
     @media(max-width:750px){ .hide-menu{ display: none}}
     .site-title::before{ content: "~"; color: var(--accent-text-color); position: relative;}
     /* =============================================================================
         Typography and link formatting
     ========================================================================== */
-    h1, h2, h3, h4{ color: var(--accent-text-color); word-wrap: break-word; margin-top: 2em;}
+    h1{ color: var(--accent-text-color); word-wrap: break-word; margin: 1.2em 0;}
+    h2, h3, h4{ color: var(--accent-text-color); word-wrap: break-word; margin-top: 2em;}
     h1{ font-size: 2rem; font-weight: 700;}
     h2{ font-size: 1.5rem; font-weight: 700;}
     h3{ font-size: 1.25rem; font-weight: 700;}
@@ -47,7 +48,7 @@
     /* =============================================================================
         Post Metadata
     ========================================================================== */
-    .post-info{ font-size: 1rem; margin: 0;}
+    .post-info{ font-size: 1rem; margin: 0 0 1em;}
     /* =============================================================================
         After Article Notice Boxes
     ========================================================================== */
@@ -141,7 +142,7 @@
     .embed-container{ position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;}
     .embed-container iframe, .embed-container object, .embed-container embed{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
     /* =============================================================================
-        Youtube Consent Warning Box
+    Youtube Consent Warning Box
     ========================================================================== */
     .yt-warning{ margin: 3rem 0 2rem; font-size: 90%; border: var(--standard-border); text-align: center; padding: 0 4rem 1rem;}
     .yt-warning::before{ color: var(--accent-text-color); display: block; position: relative; left: -4.14rem; top: -1rem; font-weight: bold; border: var(--standard-border); padding-top: 0.1rem; width: 39.76rem; content: "WARNING"; background: var(--warning-color);}
