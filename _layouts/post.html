@@ -8,15 +8,17 @@ layout: default
   {{ page.content | number_of_words }} words &middot; {% include reading-time.html %}<br>
   Tagged: {% for tag in page.tags %}<a href="/tags/{{ tag | slugify: 'pretty' }}/">#{{ tag | slugify: 'pretty' }}</a>{% unless forloop.last == true %},&nbsp;{% endunless %}{% if forloop.last == true %}.{% endif %}{% endfor %}
   </p>
+  {% include share-bttn.html  %}
 
   <article>
+    {% include tldr.html %}
     {{ content }}
   </article>
 
   <!-- After Article -->
   <div class="after-article">
     {% assign email = '<a href="mailto:' | append: site.author.email | append: '?subject=Re: ' | append: page.title | append: '">email</a>' %}
-    <p class="notice"><strong>Questions, comments or concerns?</strong><br>I'd love to hear your thoughts! Please share them through {{ email }} or <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">Mastodon</a>.</p>
+    <p class="notice"><strong>Questions, comments or concerns?</strong><br>Please share your thoughts through {{ email }} or <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">mastodon</a>.</p>
   </div>
     <!-- end -->
 
