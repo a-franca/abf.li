@@ -7,9 +7,9 @@ Personal blog/website.
 This site was created using [Jekyll](https://jekyllrb.com), and it's hosted on [Netlify](https://www.netlify.com/).
 
 See:
-* [Latest posts](https://abf.li/#latest-posts)
+* [Latest Posts](https://abf.li/#latest-posts)
 
-* [RSS feed](https://abf.li/feed.xml) / [JSON Feed](https://abf.li/feed.json)
+* [RSS Feed](https://abf.li/feed.xml) / [JSON Feed](https://abf.li/feed.json)
 
 # License
 
