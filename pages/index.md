@@ -17,6 +17,7 @@ I don't post often. Like most of you readers, I am a very busy person with my fa
 
 Last but not least, this site provides both an [RSS](/feed.xml) and a [JSON](/feed.json) feed, so you can catch up on what I'm posting using your newsreader client of choice.
 
+{: #latest-posts}
 <table>
   <thead>
     <tr>
