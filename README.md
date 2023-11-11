@@ -4,7 +4,7 @@
 
 Personal blog/website. 
 
-This site was created using [Jekyll](https://jekyllrb.com), and it's hosted on [Netlify](netlify.com).
+This site was created using [Jekyll](https://jekyllrb.com), and it's hosted on [Netlify](https://www.netlify.com/).
 
 # License
 
