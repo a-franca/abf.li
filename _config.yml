@@ -38,8 +38,8 @@ author:
   url: 'https://abf.li'
   email: 'hello@privatemail.slmail.me'
   git: 'https://github.com/fox73987'
-  mastodon: 'https://mas.to/@abf'
-  mastodon-handle: '@abf@mas.to' 
+  mastodon: 'https://mstdn.abf.li/@andre'
+  mastodon-handle: 'andre@mstdn.abf.li' 
 
 # Tag settinngs
 tag_page_layout: tagged
