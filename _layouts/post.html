@@ -8,7 +8,6 @@ layout: default
   {{ page.content | number_of_words }} words &middot; {% include reading-time.html %}<br>
   Tagged: {% for tag in page.tags %}<a href="/tags/{{ tag | slugify: 'pretty' }}/">#{{ tag | slugify: 'pretty' }}</a>{% unless forloop.last == true %},&nbsp;{% endunless %}{% if forloop.last == true %}.{% endif %}{% endfor %}
   </p>
-  {% include share-bttn.html  %}
 
   <article>
     {% include tldr.html %}
