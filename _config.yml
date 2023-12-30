@@ -13,6 +13,7 @@ source_code: 'https://github.com/fox73987/website'
 feed:
   rss: '/feed.xml'
   json: '/feed.json'
+favicon: '/assets/images/favicons/favicon-32x32.png'
 
 logo: '/assets/images/feature/brutal-logo.webp'
 logo_width: '512'
@@ -53,7 +54,9 @@ include:
 exclude:
   - _draft/
   - openring.sh
+  - openring-mac.sh
   - serve-site.sh
+  - serve-site-mac.sh
   - .sass-cache/
   - .jekyll-cache/
   - .gitignore
