@@ -11,7 +11,7 @@ permalink: "/feed.json"
   "home_page_url": {{ site.url | jsonify }},
   "feed_url": {{ site.feed.json | prepend: site.url | jsonify }},
   "icon": {{ site.logo | prepend: site.url | jsonify }},
-  "favicon": {{ '/favicon.ico' | prepend: site.url | jsonify }},
+  "favicon": {{ site.favicon | prepend: site.url | jsonify }},
   "author": {
       "name": {{ site.author.name | jsonify }},
       "url": {{ site.author.url | jsonify }},
