@@ -8,4 +8,6 @@ vendor/
 Gemfile.lock
 .DS_Store
 openring.sh
+openring-mac.sh
 serve-site.sh
+serve-site-mac.sh
