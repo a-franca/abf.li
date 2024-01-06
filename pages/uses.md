@@ -3,7 +3,7 @@ layout: page
 title: "Things I Use"
 description: "Collection of hardware and software I currently use"
 permalink: uses
-date: 2023-03-02
+date: 2024-01-06
 ---
 
 This page is a collection of hardware and software I currently use.
@@ -19,7 +19,7 @@ Some people on my blogroll have a similar page, and I think it's really useful a
     - Graphics: NVIDIA GeForce RTX 3050 Ti
     - Display: 16" (2560 x 1600) IPS, 500 nits, 165Hz
     - Memory: 16GB DDR5 4800MHz
-    - Battery: 80Whr (in my tests around 5 hours)
+    - Battery: 80Whr (in my tests, around 5 hours)
     - Storage: 1TB PCIe Gen 4
     - OS: Windows 11
     - Ports
@@ -30,8 +30,9 @@ Some people on my blogroll have a similar page, and I think it's really useful a
         - 1x HDMI
         - 1x RJ45
         - 1x DC-In
+    - External Monitor: DELL S2721QS 27"
 
-### Desktop
+### Home Server
 
 - Custom PC
     - Processor: Ryzen 5 3500 (6 Cores, 6 Threads, 4MB Cache)
@@ -39,15 +40,14 @@ Some people on my blogroll have a similar page, and I think it's really useful a
     - Storage: 1TB PCIe Gen 3
     - Graphics: NVIDIA GeForce RTX 2060
     - Keyboard Akkon 3084B
-    - OS: Windows 10
-    - Samsung 27” 4K Monitor, 60Hz
+    - OS: Ubuntu Server 22.04 LTS
 
 ### Small-factor
 
 - Raspberry Pi 400
     - Processor: Broadcom BCM2711 quad-core Cortex-A72
     - RAM: 4GB LPDDR4-3200
-    - OS: Ubuntu (latest LTS)
+    - OS: Ubuntu 22.04 LTS
     - Ports:
         - 2x micro HDMI
         - 2x USB 3.0
@@ -86,11 +86,11 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 ## Software
 
 - VSCode 
-- Brave / Mullvad Browser
+- Firefox / Brave
 - Signal
 - KeepassXC
 - NetNewsWire
-- Joplin
+- Standard Notes
 
 ## Services
 
