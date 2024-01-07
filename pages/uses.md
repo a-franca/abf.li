@@ -85,19 +85,6 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 
 ## Software
 
-- VSCode 
-- Firefox / Brave
-- Signal
-- KeepassXC
-- NetNewsWire
-- Standard Notes
-
-## Services
-
-- iCloud+
-- Tailscale
-- SimpleLogin / Anonaddy
-- Nextcloud
-- IVPN
+I have a post called ["My Default Apps at the Beginning of 2024"]({% link _posts/2024/2024-01-06-default-apps-at-the-beginning-of-2024.md %}) where I list my most up-to-date default apps.
 
 Last modified: {{ page.date | date: "%B %-d, %Y" }}
