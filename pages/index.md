@@ -45,9 +45,6 @@ Last but not least, this site provides both an [RSS](/feed.xml) and a [JSON](/fe
   </tbody>
 </table>
 
-## Tag Cloud
-{% include tag-cloud.html %}
-
 {: #contact}
 ## Elsewhere...
 
