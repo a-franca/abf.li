@@ -14,4 +14,4 @@ See:
 # License
 
 * Content licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-* Code licensed under [MIT](https://github.com/fox73987/website/raw/main/LICENSE).
+* Code licensed under [MIT](https://github.com/a-franca/website/raw/main/LICENSE).
