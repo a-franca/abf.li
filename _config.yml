@@ -9,7 +9,7 @@ timezone: 'America/New_York'
 license: 'CC BY-NC-SA 4.0'
 robots: '/robots.txt'
 sitemap: '/sitemap.xml'
-source_code: 'https://github.com/a-franca/website'
+source_code: 'https://github.com/a-franca/abf.li'
 feed:
   rss: '/feed.xml'
   json: '/feed.json'
