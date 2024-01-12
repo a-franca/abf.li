@@ -4,9 +4,10 @@ permalink: "/sitemap.xml"
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/sitemap.xsl" type="text/xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	{% for page in site.pages %}
-	{% if page.url contains '.xml' or page.url contains '/assets/' or page.url contains '.json' or page.url contains '404.html' or page.url contains '.txt' %}{% else %}
+	{% if page.url contains '.xml' or page.url contains '.xsl' or page.url contains '/assets/' or page.url contains '.json' or page.url contains '404.html' or page.url contains '.txt' %}{% else %}
 	<url>
 		<loc>{% if page.url == '/' %}{{ site.url }}{% else %}{{ page.url | prepend: site.url }}{% endif %}</loc>
 		<lastmod>{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
