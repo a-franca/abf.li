@@ -40,7 +40,7 @@ It s available on my source code repository.
               Web Feed
             </h1>
           <p class="tip">
-            <strong>This is a web feed,</strong> also known as an RSS feed. <strong>Subscribe</strong> by copying the URL from the address bar into your newsreader.<br />
+            <strong>This is a web feed,</strong> also known as an RSS feed. <strong>Subscribe</strong> by copying the URL <mark>https://abf.li/feed.xml</mark> into your newsreader.<br />
           </p>
           <table>
             <thead>
