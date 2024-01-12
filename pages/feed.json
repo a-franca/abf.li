@@ -25,8 +25,8 @@ permalink: "/feed.json"
           "title": {{ post.title | strip_html | normalize_whitespace | jsonify }},
           "summary": {{ post.description | strip_html | normalize_whitespace | jsonify }},
           {% assign message = '<br><hr><p>Thanks for reading this post via RSS!<br>Let me know your thoughts by leaving a message via ' %}
-          {% assign email = '<a href="mailto:' | append: site.author.email | append: '?subject=Re: ' | append: post.title | append: '">email</a>' %}
-          {% assign social = ' or <a href="' | append: site.author.mastodon | append: '">mastodon</a>.</p>' %}
+          {% assign email = '<a href="mailto:' | append: site.author.email | append: '?subject=Re: ' | append: post.title | append: '">Email</a>' %}
+          {% assign social = ' or <a href="' | append: site.author.mastodon | append: '">Mastodon</a>.</p>' %}
           "content_html": {{ post.content | append: message | append: email | append: social | strip | jsonify }},
           {% if post.image %}
           {% if post.image contains '://' %}"image": {{ post_image | jsonify }},
