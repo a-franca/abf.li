@@ -14,14 +14,14 @@ layout: default
     {{ content }}
   </article>
 
-  <!-- After Article -->
+  <!-- After Article Contact Section-->
   <div class="after-article">
     {% assign email = '<a href="mailto:' | append: site.author.email | append: '?subject=Re: ' | append: page.title | append: '">email</a>' %}
     <p class="notice"><strong>Questions, comments or concerns?</strong><br>Please share your thoughts through {{ email }} or <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">mastodon</a>.</p>
   </div>
-    <!-- end -->
+    <!-- End of After Article Contact Section -->
 
-  <!-- previous / next post -->
+  <!-- Previous/Next Post Section -->
   <div class="post-nav">
     
     {% if page.previous.url %}
@@ -33,6 +33,8 @@ layout: default
     {% endif %}
     
   </div>
-  <!-- end -->
+  <!-- End Previous/Next Post Section -->
+  <!-- Openring Fetched Content-->
   {% include openring-out.html %}
+  <!-- End of Openring Fetched Content-->
 </main>
