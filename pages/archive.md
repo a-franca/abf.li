@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archive
-description: "All published posts over time"
+description: "All posts published over time"
 permalink: /posts/
 ---
 
