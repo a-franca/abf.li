@@ -22,7 +22,7 @@ Last but not least, this site provides both an [RSS](/feed.xml) and a [JSON](/fe
   <thead>
     <tr>
       <th>Latest Posts</th>
-      <th>Published</th>
+      <th style="text-align: center; white-space: nowrap;">Published</th>
     </tr>
   </thead> 
   <tbody>
@@ -31,7 +31,7 @@ Last but not least, this site provides both an [RSS](/feed.xml) and a [JSON](/fe
       <td>
         <a href="{{ post.url }}">{{ post.title }}</a>
       </td>
-      <td>
+      <td style="text-align: center; white-space: nowrap; width: 50px;">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d/%Y" }}</time>
       </td>
     </tr>

@@ -11,7 +11,7 @@ Feel free to <kbd>CMD+F</kbd> / <kbd>CTRL+F</kbd> to look up posts, or see [Sear
   <thead>
     <tr>
       <th>Content</th>
-      <th>Published</th>
+      <th style="text-align: center; white-space: nowrap;">Published</th>
     </tr>
   </thead>
   <tbody>
@@ -20,7 +20,7 @@ Feel free to <kbd>CMD+F</kbd> / <kbd>CTRL+F</kbd> to look up posts, or see [Sear
       <td>
         <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
       </td>
-      <td>
+      <td style="text-align: center; white-space: nowrap; width: 50px;">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d/%Y" }}</time>
       </td>
     </tr>

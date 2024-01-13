@@ -87,7 +87,7 @@ It s available on my source code repository.
                       <xsl:value-of select="sitemap:loc"/>
                     </a>
                   </td>
-                  <td style="text-align: center; white-space: nowrap;">
+                  <td style="text-align: center; white-space: nowrap; width: 50px;">
                     <xsl:value-of select="substring(sitemap:lastmod, 0, 11)"/>
                   </td>
                 </tr>
