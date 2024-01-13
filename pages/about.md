@@ -16,8 +16,10 @@ I really see that personal spaces like this (simple, accessible and decentralize
 **Hosted on:** [Netlify](netlify.com){: rel="noopener noreferrer nofollow" target="_blank" }  
 **Source Code:** [Github]({{ site.source_code }}){: rel="me noopener" target="_blank" }  
 **Code License:** [MIT]({{ site.source_code }}/raw/main/LICENSE){: rel="me noopener" target="_blank" }  
-**Content License:** [{{ site.license }}](https://creativecommons.org/licenses/by-nc-sa/4.0/){: rel="noopener noreferrer nofollow" target="_blank" }   
-**Developed on:**  Lenovo Legion i5 Pro Gen7  
+**Content License:** [{{ site.license }}]({{ site.license_url }}){: rel="noopener noreferrer nofollow" target="_blank" }   
+**Developed on:**  Lenovo Legion i5 Pro Gen7
+
+< / > Coded with love for the web 
 
 {% include site-stats.html %}
 
