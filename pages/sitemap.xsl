@@ -75,7 +75,7 @@ It s available on my source code repository.
             <thead>
               <tr>
                 <th>Location</th>
-                <th>Modified</th>
+                <th style="text-align: center;">Modified</th>
               </tr>
             </thead>
             <tbody>
@@ -87,7 +87,7 @@ It s available on my source code repository.
                       <xsl:value-of select="sitemap:loc"/>
                     </a>
                   </td>
-                  <td>
+                  <td style="text-align: center; white-space: nowrap;">
                     <xsl:value-of select="substring(sitemap:lastmod, 0, 11)"/>
                   </td>
                 </tr>

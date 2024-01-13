@@ -40,13 +40,13 @@ It s available on my source code repository.
               Web Feed
             </h1>
           <p class="tip">
-            <strong>This is a web feed,</strong> also known as an RSS feed. <strong>Subscribe</strong> by copying the URL <mark>https://abf.li/feed.xml</mark> into your newsreader.<br />
+            <strong>This is a web feed,</strong> also known as an RSS feed. <strong>Subscribe</strong> by copying the URL <mark>https://abf.li/feed.xml</mark> into your newsreader.
           </p>
           <table>
             <thead>
               <tr>
                 <th>Latest Posts</th>
-                <th>Published</th>
+                <th style="text-align: center;">Published</th>
               </tr>
             </thead>
             <tbody>
@@ -60,7 +60,7 @@ It s available on my source code repository.
                       <xsl:value-of select="title"/>
                     </a>
                   </td>
-                  <td>
+                  <td style="text-align: center; white-space: nowrap;">
                     <xsl:value-of select="substring(pubDate, 0, 18)" />
                   </td>
                 </tr>
@@ -69,12 +69,12 @@ It s available on my source code repository.
           </table>
         </main>
         <footer>
-          <p>
+          <p style="line-height:90%;">
             This site was coded with love for the web.<br />
             Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer nofollow" target="_blank">{{ site.license }}</a>.<br />
             <a href="/about/#privacy-and-terms">Privacy and Terms</a> | <a href="/about/#disclaimer">Disclaimer</a> | <a href="{{ site.source_code }}" rel="me noopener" target="_blank">Source Code</a><br />
             <a href="{{ site.sitemap | prepend: site.url }}">Sitemap</a> | Last modified: {{ site.time | date: "%B %-d, %Y" }}.
-            </p>
+          </p>
         </footer>
       </body> 
     </html>
