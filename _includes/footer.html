@@ -1,7 +1,7 @@
 <footer>
     <p>
-    This site was coded with love for the web.<br>
-    Content licensed under <a id="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer nofollow" target="_blank">{{ site.license }}</a>.<br>
+    {{ site.author.copy}} <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">{{ site.author.name }}</a><br>
+    Content licensed under <a id="license" href="{{ site.license_url }}" rel="noopener noreferrer nofollow" target="_blank">{{ site.license }}</a><br>
     <a href="/about/#privacy-and-terms">Privacy and Terms</a> &#124; <a href="/about/#disclaimer">Disclaimer</a> &#124; <a href="{{ site.source_code }}" rel="me noopener" target="_blank">Source Code</a><br>
     <a id="sitemap" href="{{ site.sitemap | prepend: site.url }}">Sitemap</a> | Last modified: {{ site.time | date: "%B %-d, %Y" }}.<br><br>
     Proud member of <a href="https://512kb.club/" rel="noopener noreferrer nofollow" target="_blank">512kb Club</a>.<br><br>

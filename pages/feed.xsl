@@ -69,11 +69,9 @@ It s available on my source code repository.
           </table>
         </main>
         <footer>
-          <p style="line-height:90%;">
-            This site was coded with love for the web.<br />
-            Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer nofollow" target="_blank">{{ site.license }}</a>.<br />
-            <a href="/about/#privacy-and-terms">Privacy and Terms</a> | <a href="/about/#disclaimer">Disclaimer</a> | <a href="{{ site.source_code }}" rel="me noopener" target="_blank">Source Code</a><br />
-            <a href="{{ site.sitemap | prepend: site.url }}">Sitemap</a> | Last modified: {{ site.time | date: "%B %-d, %Y" }}.
+          <p>
+            {{ site.author.copy}} <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">{{ site.author.name }}</a> ~ Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer nofollow" target="_blank">{{ site.license }}</a><br />
+            Last modified: {{ site.time | date: "%B %-d, %Y" }}.
           </p>
         </footer>
       </body> 
