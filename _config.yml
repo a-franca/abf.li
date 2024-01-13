@@ -7,6 +7,7 @@ baseurl: ''
 locale: 'en-US'
 timezone: 'America/New_York'
 license: 'CC BY-NC-SA 4.0'
+license_url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/' 
 robots: '/robots.txt'
 sitemap: '/sitemap.xml'
 source_code: 'https://github.com/a-franca/abf.li'
@@ -40,7 +41,8 @@ author:
   email: 'hello@privatemail.slmail.me'
   git: 'https://github.com/a-franca'
   mastodon: 'https://mstdn.abf.li/@andre'
-  mastodon-handle: 'andre@mstdn.abf.li' 
+  mastodon-handle: 'andre@mstdn.abf.li'
+  copy: '© 2024'
 
 # Tag settinngs
 tag_page_layout: tagged
