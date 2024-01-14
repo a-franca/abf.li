@@ -71,7 +71,7 @@ It s available on my source code repository.
         <footer>
           <p>
             {{ site.author.copy}} <a href="{{ site.author.mastodon }}" rel="me noopener" target="_blank">{{ site.author.name }}</a> 
-            ~ Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener noreferrer nofollow" target="_blank">{{ site.license }}</a>.<br />
+            ~ Content licensed under <a href="{{ site.license_url }}" rel="noopener noreferrer nofollow" target="_blank">{{ site.license }}</a>.<br />
             Last modified: {{ site.time | date: "%B %-d, %Y" }}.
           </p>
         </footer>
