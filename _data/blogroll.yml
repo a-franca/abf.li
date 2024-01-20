@@ -36,7 +36,7 @@
 - name: "Kev Quirk"
   link: https://kevquirk.com/
   rss: https://kevquirk.com/feed
-  description: 'Co-founder of <a href="https://fosstodon.org" rel="noopener noreferrer nofollow" target="_blank">Fosstodon.org</a> (a Mastodon instance), Kev writes about blogging, web design, among other things. My site was created after reading his <a href="https://thewebisfucked.com/" rel="noopener noreferrer nofollow" target="_blank">The Web Is F**ked</a> manifesto.'
+  description: 'Co-founder of <a href="https://fosstodon.org" rel="noopener noreferrer nofollow" target="_blank">Fosstodon.org</a> (a Mastodon instance), Kev writes about blogging, web design, among other things.'
 
 - name: "Jim Nielsen"
   link: https://blog.jim-nielsen.com/
