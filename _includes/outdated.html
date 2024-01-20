@@ -1,0 +1,13 @@
+{% assign currentDate = site.time | date: "%s" %}
+{% assign postYear = page.date | date: "%s" %}
+{% assign age = currentDate | minus: postYear | divided_by: 86400 %}
+
+{% if age >= 730 %}
+
+<p class="info">⚠ This post is over {{ age | divided_by: 365  }} years old and may contain outdated opinions, broken links, or incorrect information.</p>
+
+{% elsif age >= 365 %}
+
+<p class="info">⚠ This post is over 1 year old and may contain outdated opinions, broken links, or incorrect information.</p>
+
+{% endif %}
