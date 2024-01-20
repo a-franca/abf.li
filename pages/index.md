@@ -32,7 +32,7 @@ Last but not least, this site provides both an [RSS](/feed.xml) and a [JSON](/fe
         <a href="{{ post.url }}">{{ post.title }}</a>
       </td>
       <td style="text-align: center; white-space: nowrap; width: 50px;">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d/%Y" }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
       </td>
     </tr>
     {% endfor %}
