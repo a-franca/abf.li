@@ -1,7 +1,7 @@
-- name: "Michael Harley"
-  link: https://obsolete29.com/
-  rss: https://obsolete29.com/feed/feed.xml
-  description: 'You can find personal notes, posts about InfoSec and web development.'
+- name: "Rach Smith"
+  link: https://rachsmith.com/
+  rss: https://rachsmith.com/feed.xml
+  description: "One of my favorite websites. On her digital garden, as she describes it, you'll find posts not only about technology, but well-being and mothering."
 
 - name: "Bradley Taunt"
   link: https://bt.ht
@@ -18,16 +18,6 @@
   rss: https://jvns.ca/atom.xml
   description: 'All kind of technologies, linux, and computer tools posts.'
 
-- name: "Luke Harris"
-  link: https://www.lkhrs.com/
-  rss: https://www.lkhrs.com/blog/index.xml
-  description: 'Interesting web design and technology posts.'
-
-- name: "Bryce Wray"
-  link: https://www.brycewray.com/
-  rss: https://www.brycewray.com/index.xml
-  description: 'A hand-coded website lover who writes lots of content about static sites.'
-
 - name: "Manuel Moreale"
   link: https://manuelmoreale.com/
   rss: https://manuelmoreale.com/feed/rss
@@ -38,17 +28,7 @@
   rss: https://kevquirk.com/feed
   description: 'Co-founder of <a href="https://fosstodon.org" rel="noopener noreferrer nofollow" target="_blank">Fosstodon.org</a> (a Mastodon instance), Kev writes about blogging, web design, among other things.'
 
-- name: "Jim Nielsen"
-  link: https://blog.jim-nielsen.com/
-  rss: https://blog.jim-nielsen.com/feed.xml
-  description: 'Writes about the web, website development, among other general notes.'
-
 - name: "The New Oil"
   link: https://blog.thenewoil.org/
   rss: https://blog.thenewoil.org/feed
   description: 'Great content over privacy and security.'
-
-- name: "The Daily WTF"
-  link: https://thedailywtf.com/
-  rss: http://syndication.thedailywtf.com/TheDailyWtf
-  description: 'Tales of disastrous development, from project management gone spectacularly bad to inexplicable coding choices.'
