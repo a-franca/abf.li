@@ -1,0 +1,19 @@
+---
+layout:
+permalink: /blogroll/blogroll.opml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>RSS Feeds for {{site.title}}'s Blogroll</title>
+        <dateCreated>{{ site.time | date_to_rfc822 }}</dateCreated>
+    </head>
+    <body>
+        <outline text="{{site.title}}'s Blogroll">
+            {% for item in site.data.blogroll %}
+            <outline title="{{item.name}}" text="{{item.name}}" xmlUrl="{{item.rss}}" htmlUrl="{{item.link}}"></outline>
+            {% endfor %}
+        </outline>
+    </body>
+</opml>
