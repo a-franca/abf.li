@@ -3,4 +3,6 @@ layout:
 permalink: "/robots.txt"
 ---
 User-agent: *
+Disallow: /
+
 Sitemap: {{ site.sitemap | prepend: site.url }}
