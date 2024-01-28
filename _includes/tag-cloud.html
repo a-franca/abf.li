@@ -1,8 +1,0 @@
-<!-- Tag Cloud -->
-<p class="tag-cloud">
-    {% for tag in site.tags %}
-    <a href="/tags/{{ tag[0] | slugify: 'pretty' }}/"
-    style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">{{ tag[0] }}</a>{% unless forloop.last == true %}&nbsp;{% endunless %}
-    {% endfor %}
-</p>
-<!-- End of Tag Cloud -->
