@@ -31,7 +31,7 @@ Some people on my blogroll have a similar page, and I think it's really useful a
         - 1x RJ45
         - 1x DC-In
     - External Monitor: DELL S2721QS 27"
-    - External Keyboard: Akko 3084B ([Linear Switches]({% link _posts/2024/2024-02-10-from-tactile-to-linear-keyboard-switches.md %}))
+    - External Keyboard: Akko 3084B ([Linear Switches]({% link _posts/2024/2024-02-11-from-tactile-to-linear-keyboard-switches.md %}))
 
 ### Home Server
 
