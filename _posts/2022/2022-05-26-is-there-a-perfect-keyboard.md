@@ -11,24 +11,26 @@ date: 2022-05-26 15:07:30
 image:
 ---
 
-Why are there so many keyboard sizes and layouts? Is it possible to find the perfect keyboard? Will we type better or faster with a "high-end" keyboard? Here's my opinion:
+Why are there so many different keyboard sizes and layouts? Is it possible to find the perfect keyboard? Will we type better or faster with a "high-end" keyboard?
+
+Here's my take:
 
 ![Akko Black & Pink 3084B Plus Keyboard](/assets/images/general/EF18B218-AE83-4255-8281-2F7BBD20E65F.webp){: loading="lazy" }
 *75% Keyboard Layout*
 
-Recently, my wife needed a new keyboard because, for the hundredth time, some keys on her macbook started to fail. No news here about how Apple making laptops with more than horrible keyboards. I remember back in 2010 when I bought my first apple laptop, and it lasted for 10 years, while my 2018 has always shown some defect, be it in the battery, or in the keys. It's a machine that I feel disgusted of using every day, but I'll keep doing so until it finally takes its last breath, since money doesn't grow on trees.
+Recently, my wife needed a new keyboard because, for the hundredth time, some of the keys on her Macbook started to fail. No news here about how Apple makes laptops with more than horrible keyboards. I remember when I bought my first Apple laptop in 2010, and it lasted 10 years, while my 2018 has always had some defect, be it in the battery or the keys. It's a machine I'm disgusted to use every day, but I'll keep using it until it finally breathes its last, because money doesn't grow on trees.
 
-Alright, back to my wife, she introduced me to keyboards that she found interesting, and they all had one trait in common. They were kind of fancy, had lots of lights, and she was recommended by one of those youtubers.
+Anyway, back to my wife, she introduced me to keyboards that she found interesting, and they all had one thing in common. They were kind of fancy, had a lot of lights, and they were recommended to her by one of those youtubers.
 
-I asked her to try out my keychron K2, and she liked really it. One of the things she appreciated most was it's the width of her laptop's keyboard. So I passed this keyboard on to her and bought another keyboard for me. It was her first contact with a mechanical keyboard, and it took her a few days to get used to it, but this is just an observation. I don't want to lead you to believe that a mechanical keyboard is or isn't better.
+I asked her to try my Keychron K2 and she really liked it. One of the things she appreciated most was that it's the same width as her laptop keyboard. So I gave it to her and bought another one for myself. It was her first contact with a mechanical keyboard and it took her a few days to get used to it, but this is just an observation. I'm not trying to tell you that a mechanical keyboard is better or not.
 
-Some people seem so obsessed with keyboards that they forget, in the end, what role this device will play in their day-by-day, be it an accountant, a programmer, a gamer, a student, and so on. Some companies put in some rgb lights on it, and voilà, this keyboard is perfect. In addition, I consider a disservice what some "content creators" do like making biased product reviews in exchange for some kind of compensation, mostly inducing people to buy products without considering other important aspects.
+Some people seem to be so obsessed with keyboards that they end up forgetting what role this device will play in their day-to-day life, be it as an accountant, a programmer, a gamer, a student, and so on. Some companies add a few RGB lights and voila, the keyboard is perfect. Also, I consider it a disservice what some "content creators" do, like writing biased product reviews in exchange for some kind of compensation, mostly to get people to buy products without considering other important aspects.
 
-Buying a keyboard, should be like buying an office chair. You've got to test it, find whether you like it or not, and only then buy it. Some questions should be asked, such as: do I suffer from a problem like tendinitis, or which layout best suits my use, or which keyboard will promote better ergonomics, or how many hours a day will I spend typing?
+Buying a keyboard should be like buying an office chair. You have to try it out, see if you like it or not, and then buy it. Some questions you should ask yourself are: do I suffer from a problem like tendonitis, or which layout will best suit my use, or which keyboard will promote better ergonomics, or how many hours a day will I spend typing?
 
-Above I commented that I didn't want to lead you to believe that a mechanical keyboard is better. For instance, if you have a problem with chronic hand pain due to repetitive strain, no mechanical keyboard will solve this problem. If you use the xpto switch, it won't make you type faster or better. In the case of switches, for example, this is more related to the feeling on you fingers when typing and does not provide any significant improvement, unless if you are a gamer and need the actuation point to be faster. Probably this is one of the cases where you'll might want to look for a keyboard that makes you pronate your hands less, or a ortholinear keyboard.
+I said above that I didn't want to mislead you into thinking that a mechanical keyboard is better. For example, if you have a problem with chronic hand pain due to repetitive strain, no mechanical keyboard is going to solve that problem. Using the x or y switch won't make you type faster or better. In the case of switches, for example, this has more to do with how your fingers feel when you type, and will not provide a significant improvement unless you are a gamer and need the trigger point to be faster. This is probably one of those cases where you'll want to look for a keyboard that makes you pronate your hands less, or an ortholinear keyboard.
 
-In fact, most people suffer from using a keyboard due to bad habits and, perhaps, because there is a historical legacy linked to how the **qwert** layout was developed to optimize the working mechanism of the typewriters.
+In fact, most people suffer from using a keyboard because of bad habits and perhaps a historical legacy related to how the **qwert** layout was designed to optimize the working mechanism of typewriters.
 
 ![Akko Black & Pink 3084B Plus Keyboard](/assets/images/general/6E55DD91-45EA-4D00-B869-BB5679934C12.webp){: loading="lazy" }
 *Keyboard Layout Comparison*
@@ -37,7 +39,7 @@ Well, what are the most common keyboard layout types?
 
 The first is the old full size (or 100%). This keyboard derives from the IBM model M keyboard. The original consisted of a 101-keys keyboard that was divided into four basic groups:
 
-The first group were the alphabet and punctuation keys, followed by the middle group with the navigation keys and, for example, <kbd>page up</kbd> and <kbd>page down</kbd>, then the group of number keys, and finally the group of function keys located on the top.
+The first group was the alphabet and punctuation keys, followed by the middle group with the navigation keys and, for example, <kbd>page up</kbd> and <kbd>page down</kbd>, then the group of number keys, and finally the group of function keys located on the top.
 
 Basically, the full sized keyboard that we see today has 103 keys, where, in the 90s, with creation of windows 95, two super keys (or windows keys, as you will) were added, one on the left side, between the <kbd>ctrl</kbd> and <kbd>alt</kbd>, and one on the right.
 
@@ -51,7 +53,7 @@ The third type of layout, 75% keyboards, is perhaps the most popular type of key
 
 There are some laptops that bring the layout 100%, but generally this forces you to not be centered with the screen. For some people, this is not much big of deal, however I don't particularly like it at all.
 
-One of the brands that became well known for offering keyboards in this format are, for example, the keychron with its k2 model (the same one that my wife uses at the moment). The keyboard model that I currently use is also a 75%, but in this case is the model 3084b from the brand akko. The reason I bought a different brand and not another keychron was the logistics and the price overall, because they're quite similar in quality.
+One of the brands that has become well known for offering keyboards in this format is, for example, Keychron with their k2 model (the same one my wife is currently using). The keyboard model I currently use is also a 75%, but in this case it is the model 3084b from the brand Akko. The reason I bought a different brand and not another Keychron was the logistics and the overall price, as they're quite similar in quality.
 
 Okay, let's move on to the 65% model.
 
@@ -70,9 +72,9 @@ Well, if you've read this far, you might have noticed that I really don't believ
 In fact, most people's problems are not the layout or the keyboard itself, but possibly never having trained to type using all their fingers.
 I myself remember being surprised to learn that those small bumps on the <kbd>f</kbd> and <kbd>j</kbd> keys serves to tactilely indicate where our index fingers, respectively, should be positioned.
 
-And here's the moral of the story, always be seated in a comfortable position, grab the keyboard you like and just practice. This will make you type better, not the device necessarily. Basically our body tends to get used to repetitive movements - for example you hardly, unless you are speaking a foreign language, think to be able to speak. The same goes for when we type. If we type incorrectly, we end up encouraging our brain to continue a bad habit.
+And here's the moral of the story: always sit comfortably, grab the keyboard you like, and just practice. This will make you a better typist, not necessarily the device. Basically, our bodies tend to get used to repetitive movements - for example, unless you speak a foreign language, you hardly think about being able to speak. The same is true when we type. If we type incorrectly, we end up encouraging our brain to continue a bad habit.
 
-There are even some very interesting sites to help you correct your typo. Some even have words in languages other than English:
+There are even some very interesting websites that help you correct your typos. Some even have words in languages other than English:
 
 
 * [Typing club](https://www.typingclub.com/){: rel="noopener noreferrer nofollow" target="_blank"}
