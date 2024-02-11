@@ -3,10 +3,10 @@ layout: post
 title: "Skiff Sold to Notion"
 description: "Skiff was sold to Notion, and that's why I moved back to Zoho as my email provider"
 tags:
-  - privacy
-  - security
-  - hosting provider
-  - email
+  - Privacy
+  - Security
+  - Hosting Provider
+  - Email
 published: true
 ---
 
