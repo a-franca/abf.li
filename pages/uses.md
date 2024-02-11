@@ -3,7 +3,7 @@ layout: page
 title: "Things I Use"
 description: "Collection of hardware and software I currently use"
 permalink: uses
-date: 2024-01-06
+date: 2024-02-10
 ---
 
 This page is a collection of hardware and software I currently use.
@@ -31,6 +31,7 @@ Some people on my blogroll have a similar page, and I think it's really useful a
         - 1x RJ45
         - 1x DC-In
     - External Monitor: DELL S2721QS 27"
+    - External Keyboard: Akko 3084B ([Linear Switches]({% link _posts/2024/2024-02-10-from-tactile-to-linear-keyboard-switches.md %}))
 
 ### Home Server
 
@@ -39,8 +40,7 @@ Some people on my blogroll have a similar page, and I think it's really useful a
     - RAM: 16GB DDR4 3200MHz
     - Storage: 1TB PCIe Gen 3
     - Graphics: NVIDIA GeForce RTX 2060
-    - Keyboard Akkon 3084B
-    - OS: Ubuntu Server 22.04 LTS
+    - OS: Debian 12
 
 ### Small-factor
 
@@ -58,6 +58,12 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 
 ### Mobile
 
+- Samsung Galaxy S24 Ultra
+    - Snapdragon 8 Gen 3 for Galaxy
+    - RAM: 12GB
+    - Storage: 512GB
+    - OS: Android (latest)
+^
 - iPhone 11 Pro Max
     - Processor: A13 Bionic
     - Storage: 64GB
@@ -85,6 +91,30 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 
 ## Software
 
-I have a post called ["My Default Apps at the Beginning of 2024"]({% link _posts/2024/2024-01-06-default-apps-at-the-beginning-of-2024.md %}) where I list my most up-to-date default apps.
+- Mail Service: Zoho Mail
+- Mail Client: Zoho Mail
+- Notes: Joplin
+- To-Do: Nextcloud Tasks
+- Calendar: Nextcloud Calendar
+- Contacts: Nextcloud Contacts
+- RSS Client: Feeder
+- Cloud Storage: Nextcloud
+- Photo library: Immich
+- Web Browser: Firefox / Brave
+- Chat: Signal / WhatsApp
+- Bookmarks: Firefox
+- Reading: Kindle App
+- Word Processing: Onlyoffice
+- Spreadsheets: Onlyoffice
+- Personal Finance: Onlyoffice Spreadsheet
+- Music: iTunes (Digital Media) / Spotify (Streaming)
+- Podcasts: Pocket Cast
+- Password Management: Bitwarden
+- Social Media: Mastodon
+- Weather: Samsung Weather App
+- Search: DuckDuckGo
+- Code Editor: VSCode
+- Email Aliases: SimpleLogin / Addy
+- VPN: Tailscale / IVPN
 
 Last modified: {{ page.date | date: "%B %-d, %Y" }}
