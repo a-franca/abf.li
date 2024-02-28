@@ -1,7 +1,7 @@
 {% assign words = page.content | number_of_words %}
 {% assign time = words | divided_by: 220 %}
 {% if time <= 1 %}
-1 minute to read
+~1 minute read
 {% else %}
-{{ time | append: " minutes to read "}}
+~{{ time | append: " minute read "}}
 {% endif %}
