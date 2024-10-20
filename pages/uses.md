@@ -82,18 +82,21 @@ Some people on my blogroll have a similar page, and I think it's really useful a
     - Output:
         - 3.5mm (Unbalanced) 1.1Vrms 109dB (2.8dBu) SNR
         - 2.5mm (Balanced) 2.2Vrms 110dB (+8.8dBu) SNR
+^
 
 - Douk Audio U10 Valve Tube Headphone Amplifier
     - Output power: ≥1100mW (32Ω)
     - Matched headphone impedance: 18-600Ω
     - Frequency response: 20Hz-30KHz
+^
 
 - Hifiman HE400SE Headphone
     - Planar Magnetic
     - Impedance: 32Ω
     - Sensitivity: 91dB
     - Plug interface: 3.5mm
-^   - Over Ear
+    - Over Ear
+^
 
 - Tin HiFi T2 Pro IEM
     - Drive unit: Dynamic 10MM woofer + 6MM Tweeter
@@ -101,6 +104,7 @@ Some people on my blogroll have a similar page, and I think it's really useful a
     - Plug interface: 3.5mm
     - Earphone interface: MMCX
     - In Ear
+^
 
 - Moondrop CHU II IEM
     - Drive unit: 10mm Dynamic Driver
@@ -108,6 +112,7 @@ Some people on my blogroll have a similar page, and I think it's really useful a
     - Plug interface: 3.5mm
     - Earphone interface: 0.78mm (2-PIN)
     - In Ear
+^
 
 - KZ ZVX IEM
     - Drive unit: 10mm Dual-cavity Dynamic Driver
