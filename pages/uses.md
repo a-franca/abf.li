@@ -3,7 +3,7 @@ layout: page
 title: "Things I Use"
 description: "Collection of hardware and software I currently use"
 permalink: uses
-date: 2024-02-10
+date: 2024-10-19
 ---
 
 This page is a collection of hardware and software I currently use.
@@ -15,13 +15,13 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 ### Laptop
 
 - Lenovo Legion 5i Pro Gen7
-    - Processor: 12th Gen Intel i7-12700H (14 Cores, 20 Threads, 24MB Cache)
+    - Processor: 12th Gen Intel i7-12700H (14 Cores, 20 Threads, 24MB Cache) @ 4.6GHz
     - Graphics: NVIDIA GeForce RTX 3050 Ti
     - Display: 16" (2560 x 1600) IPS, 500 nits, 165Hz
-    - Memory: 16GB DDR5 4800MHz
-    - Battery: 80Whr (in my tests, around 5 hours)
+    - Memory: 32GB DDR5 4800MHz
+    - Battery: 80Whr (in my tests, around 3 hours)
     - Storage: 1TB PCIe Gen 4
-    - OS: Windows 11
+    - OS: Arch Linux
     - Ports
         - 1x Thunderbolt 4 (USB 4, DisplayPort 1.4)
         - 2x USB Type-C (USB 3.2 Gen 2, DisplayPort 1.4)
@@ -47,7 +47,7 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 - Raspberry Pi 400
     - Processor: Broadcom BCM2711 quad-core Cortex-A72
     - RAM: 4GB LPDDR4-3200
-    - OS: Ubuntu 22.04 LTS
+    - OS: Raspberry Pi OS x86_64
     - Ports:
         - 2x micro HDMI
         - 2x USB 3.0
@@ -82,15 +82,43 @@ Some people on my blogroll have a similar page, and I think it's really useful a
     - Output:
         - 3.5mm (Unbalanced) 1.1Vrms 109dB (2.8dBu) SNR
         - 2.5mm (Balanced) 2.2Vrms 110dB (+8.8dBu) SNR
-^        
-- Tin HiFi T2 Pro In Ear Earphone
-    - Drive unit: Dynamic 10MM woofer + 6MM Tweeter (2DD drive unit)
-    - Earphone sensitivity: 102dB/mW
-    - Plug interface: 3.5mm Gilded
+
+- Douk Audio U10 Valve Tube Headphone Amplifier
+    - Output power: ≥1100mW (32Ω)
+    - Matched headphone impedance: 18-600Ω
+    - Frequency response: 20Hz-30KHz
+
+- Hifiman HE400SE Headphone
+    - Planar Magnetic
+    - Impedance: 32Ω
+    - Sensitivity: 91dB
+    - Plug interface: 3.5mm
+^   - Over Ear
+
+- Tin HiFi T2 Pro IEM
+    - Drive unit: Dynamic 10MM woofer + 6MM Tweeter
+    - Frequency Response: 12Hz - 40kHz
+    - Plug interface: 3.5mm
     - Earphone interface: MMCX
+    - In Ear
+
+- Moondrop CHU II IEM
+    - Drive unit: 10mm Dynamic Driver
+    - Frequency Response: 15Hz - 38kHz
+    - Plug interface: 3.5mm
+    - Earphone interface: 0.78mm (2-PIN)
+    - In Ear
+
+- KZ ZVX IEM
+    - Drive unit: 10mm Dual-cavity Dynamic Driver
+    - Frequency Response: 20Hz - 40kHz
+    - Plug interface: 3.5mm
+    - Earphone interface: 0.78mm (2-PIN)
+    - In Ear 
 
 ## Software
 
+- Terminal Emulator: Kitty
 - Mail Service: Zoho Mail
 - Mail Client: Zoho Mail
 - Notes: Joplin
@@ -102,14 +130,13 @@ Some people on my blogroll have a similar page, and I think it's really useful a
 - Photo library: Immich
 - Web Browser: Firefox / Brave
 - Chat: Signal / WhatsApp
-- Bookmarks: Firefox
+- Bookmarks: Brave
 - Reading: Kindle App
 - Word Processing: Onlyoffice
 - Spreadsheets: Onlyoffice
-- Personal Finance: Onlyoffice Spreadsheet
-- Music: iTunes (Digital Media) / Spotify (Streaming)
+- Music: iTunes (Digital Media) / Deezer (Streaming)
 - Podcasts: Pocket Cast
-- Password Management: Bitwarden
+- Password Management: KeepassXC
 - Social Media: Mastodon
 - Weather: Samsung Weather App
 - Search: DuckDuckGo
